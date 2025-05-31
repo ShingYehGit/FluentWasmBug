@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Business0" xml:space="preserve">
+    <value>12. 商业生意经营管理诊断</value>
+  </data>
+  <data name="Business1" xml:space="preserve">
+    <value>12.1 经营运行诊断</value>
+  </data>
+  <data name="Business2" xml:space="preserve">
+    <value>12.2 产品/货物诊断</value>
+  </data>
+  <data name="Business3" xml:space="preserve">
+    <value>12.3 广告效力诊断</value>
+  </data>
+  <data name="Business4" xml:space="preserve">
+    <value>12.4 营业地点诊断</value>
+  </data>
+  <data name="Business5" xml:space="preserve">
+    <value>12.5 员工诊断</value>
+  </data>
+  <data name="Business6" xml:space="preserve">
+    <value>12.6 客户诊断</value>
+  </data>
+  <data name="Business7" xml:space="preserve">
+    <value>12.7 定价产品诊断</value>
+  </data>
+  <data name="Business8" xml:space="preserve">
+    <value>12.8 促销诊断</value>
+  </data>
+  <data name="Business9" xml:space="preserve">
+    <value>12.9 利润诊断</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>选择占卜类别</value>
+  </data>
+  <data name="Entreprenur0" xml:space="preserve">
+    <value>14. 创业</value>
+  </data>
+  <data name="Entreprenur1" xml:space="preserve">
+    <value>4.1 投资</value>
+  </data>
+  <data name="Entreprenur2" xml:space="preserve">
+    <value>14.2 合资创业</value>
+  </data>
+  <data name="Entreprenur3" xml:space="preserve">
+    <value>14.3 新创新产品</value>
+  </data>
+  <data name="Entreprenur4" xml:space="preserve">
+    <value>14.4 房地产设计布局</value>
+  </data>
+  <data name="Family0" xml:space="preserve">
+    <value>9. 婚后/家庭</value>
+  </data>
+  <data name="Family1" xml:space="preserve">
+    <value>9.1 生育孩子</value>
+  </data>
+  <data name="Family2" xml:space="preserve">
+    <value>9.2 爱情如何</value>
+  </data>
+  <data name="Family3" xml:space="preserve">
+    <value>9.3 离婚</value>
+  </data>
+  <data name="FengShui0" xml:space="preserve">
+    <value>5. 风水</value>
+  </data>
+  <data name="FengShui1" xml:space="preserve">
+    <value>5.1 风水诊断/布局</value>
+  </data>
+  <data name="Good0" xml:space="preserve">
+    <value>1.吉/兇</value>
+  </data>
+  <data name="Good1" xml:space="preserve">
+    <value>1.1 吉/兇状态</value>
+  </data>
+  <data name="Good2" xml:space="preserve">
+    <value>1.2 占卜行动吉/兇</value>
+  </data>
+  <data name="Good3" xml:space="preserve">
+    <value>1.3 占卜病情/生命状态吉/兇</value>
+  </data>
+  <data name="Health0" xml:space="preserve">
+    <value>10. 健康/医疗</value>
+  </data>
+  <data name="Health1" xml:space="preserve">
+    <value>10.1 健康诊断</value>
+  </data>
+  <data name="Health2" xml:space="preserve">
+    <value>10.2 疾病诊断</value>
+  </data>
+  <data name="Health3" xml:space="preserve">
+    <value>10.3 选择医生</value>
+  </data>
+  <data name="Health4" xml:space="preserve">
+    <value>10.4 药物验证</value>
+  </data>
+  <data name="Health5" xml:space="preserve">
+    <value>10.5 手术诊断</value>
+  </data>
+  <data name="House0" xml:space="preserve">
+    <value>11. 房屋/房地产</value>
+  </data>
+  <data name="House1" xml:space="preserve">
+    <value>11.1 健康/财富诊断</value>
+  </data>
+  <data name="House2" xml:space="preserve">
+    <value>11.2 购买</value>
+  </data>
+  <data name="House3" xml:space="preserve">
+    <value>11.3 出售</value>
+  </data>
+  <data name="House4" xml:space="preserve">
+    <value>11.4 出租</value>
+  </data>
+  <data name="House5" xml:space="preserve">
+    <value>11.5 租赁</value>
+  </data>
+  <data name="Job0" xml:space="preserve">
+    <value>5. 职业/工作</value>
+  </data>
+  <data name="Job1" xml:space="preserve">
+    <value>5.1 求职</value>
+  </data>
+  <data name="Job2" xml:space="preserve">
+    <value>5.2 执照考试</value>
+  </data>
+  <data name="Job3" xml:space="preserve">
+    <value>5.3 职业/工作诊断</value>
+  </data>
+  <data name="Job4" xml:space="preserve">
+    <value>5.4 职业/工作比较</value>
+  </data>
+  <data name="Job5" xml:space="preserve">
+    <value>5.5 工资/奖金数量</value>
+  </data>
+  <data name="Job6" xml:space="preserve">
+    <value>5.6 职业/工作适应性方向</value>
+  </data>
+  <data name="Job7" xml:space="preserve">
+    <value>5.7 职业/工作安全保障</value>
+  </data>
+  <data name="Job8" xml:space="preserve">
+    <value>5.8 工作组织安全</value>
+  </data>
+  <data name="Law0" xml:space="preserve">
+    <value>11. 诉讼/冲突</value>
+  </data>
+  <data name="Law1" xml:space="preserve">
+    <value>11.1 协商/冲突</value>
+  </data>
+  <data name="Law2" xml:space="preserve">
+    <value>11.2 控告起訴某人</value>
+  </data>
+  <data name="Law3" xml:space="preserve">
+    <value>11.3 被某人起訴/控告</value>
+  </data>
+  <data name="Law4" xml:space="preserve">
+    <value>11.4 诉讼结果</value>
+  </data>
+  <data name="Marry0" xml:space="preserve">
+    <value>7. 与结婚有关</value>
+  </data>
+  <data name="Marry1" xml:space="preserve">
+    <value>7.1 爱情将会如何</value>
+  </data>
+  <data name="Marry2" xml:space="preserve">
+    <value>7.2 婚姻诊断</value>
+  </data>
+  <data name="Marry3" xml:space="preserve">
+    <value>7.3 准备去结婚</value>
+  </data>
+  <data name="Romance0" xml:space="preserve">
+    <value>6. 关于爱情浪漫</value>
+  </data>
+  <data name="Romance1" xml:space="preserve">
+    <value>6.1 与某人约会</value>
+  </data>
+  <data name="Romance2" xml:space="preserve">
+    <value>6.2 浪漫/爱情将会如何</value>
+  </data>
+  <data name="Romance3" xml:space="preserve">
+    <value>6.3 婚姻前景</value>
+  </data>
+  <data name="School0" xml:space="preserve">
+    <value>2. 学校/学习</value>
+  </data>
+  <data name="School1" xml:space="preserve">
+    <value>2.1 预测前景（收入/职业）</value>
+  </data>
+  <data name="School2" xml:space="preserve">
+    <value>2.2 申請入学/奖学金</value>
+  </data>
+  <data name="School3" xml:space="preserve">
+    <value>2.3 课程成绩/教师选择</value>
+  </data>
+  <data name="Trip0" xml:space="preserve">
+    <value>3.旅游/旅行</value>
+  </data>
+  <data name="Trip1" xml:space="preserve">
+    <value>3.1 旅游/旅游行程</value>
+  </data>
+  <data name="SubCategory" xml:space="preserve">
+    <value>选择详细子类别</value>
+  </data>
+  <data name="SubStatement" xml:space="preserve">
+    <value>选择占卜語句</value>
+  </data>
+  <data name="Wealth0" xml:space="preserve">
+    <value>4. 财富/资产</value>
+  </data>
+  <data name="Wealth1" xml:space="preserve">
+    <value>4.1 财运诊断</value>
+  </data>
+</root>

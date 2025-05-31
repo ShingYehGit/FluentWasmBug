@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Wealth000" xml:space="preserve">
+    <value>How is &lt;my&gt; money wealth luck regarding my [Working Bonus] in coming [ 1year]... ?[Wealth Sources : Select your wealth source|EqWealth7(W@w),Predict Duration : Specify the coming days/months(Tr)]{OR?}&lt;Sn/Y/W@w&gt;40.0</value>
+  </data>
+  <data name="Wealth001" xml:space="preserve">
+    <value>If &lt;my&gt; [Big Fun Sea Food restaurant] carries this [Honey bread] item/product to sell... I estimate [30.50]% net profit earning with resect to it's cost, How is the wealth luck for profit in coming [4 month]... ?[ : Business discription / name(S.et),Sell Item : Input the name of product(YC&amp;.go),Net Profit Earning % : Input Expecting Net Profit Earning %(W@wp?),Predict Duration : Specify The Selling duration(Tr)]{AD}&lt;Sn/YC&amp;/W@wp?&gt;80.0</value>
+  </data>
+  <data name="Wealth002" xml:space="preserve">
+    <value>Is there money wealth luck for &lt;me&gt; to earn [The California Lottery] to buy it's ticket at [DaWha selling lottery ticket booth] in Next Draw date [FRI/JUN 4, 2021] ?[Lottery Wealth : Lottery Name(W@w),Buy Lottery at : Selling ticket location(Ya.se),On Draw Date : Draw date(t)]{O}&lt;Sn/Ya/W@w&gt;40.0</value>
+    <comment>[Wpx] x : not to replace user defining, a address</comment>
+  </data>
+  <data name="Wealth003" xml:space="preserve">
+    <value>As compare to &lt;my&gt; last [2 yearly] average net earning $[600000.0] quantity for &lt;my&gt; [Lisa Beauty hair style Salon]... How is the quantity of money wealth &lt;I&gt; can earn in next coming [1 year] ?[ : Past Numbering months/years,Mony Earning Quantity : Accurate Quantity of money(W@q$?),Running : Description of business/name(Ye.et),Predict Duration : The coming Yaer/Month(Tr)]{OD}&lt;Sn/Ye.et/W@q?&gt;80.0</value>
+    <comment>&lt;W@p&gt;百分比計</comment>
+  </data>
+  <data name="Wealth004" xml:space="preserve">
+    <value>&lt;I&gt; estimate net earning $[40000.0] quantity to carry [these woman skirts] item at [Arcadia retail store], How much the net earning can earn before tax from these items in next coming [summer 3 months] ?[Money Earning Quantity : Earning quantity of best knowledge(W@q#?),Selling : Product item name(YC&amp;.go),Store at : Store Location(Ya.se),Predict Duration : Duration of sale(Tr)]{OD}&lt;Sn/Ya/C&amp;/W@q?&gt;80.0</value>
+    <comment>&lt;W@q&gt;數量計</comment>
+  </data>
+  <data name="Wealth005" xml:space="preserve">
+    <value>Will the [Harvard University] grand &lt;my&gt; application of [scholarship to do research] in coming [1 year] ?[Study/Work at : Name of the school or origanoization(Y.sh),Wealth/Scholarship : Discription of Scholarship(Ww@),Specify the Calendar Year(t)]{OR}&lt;Sn/Y.sh/Ww@&gt;40.0</value>
+    <comment>&lt;W@5&gt;五行數量計</comment>
+  </data>
+  <data name="Wealth006" xml:space="preserve">
+    <value>Will [Mr.] [Xname] return the $[50000.0] money that &lt;I&gt; lend to (him) in coming [3 month] ?[ : Select Miss / Mrs. or Mr. for named X person(yn!),Debtor : Debtor name(Yn!),Return wealth quantity : Debt of money quantity(W@wq+),Predicting Duration : Specify the coming days/months(Tr)]{OR}&lt;Sn/Yn!/W@wq+&gt;64.0</value>
+    <comment>(wp2#) # estimate</comment>
+  </data>
+  <data name="Wealth007" xml:space="preserve">
+    <value>Can &lt;I&gt; get the total quantity of $[600000.0] money loan from the [Wells Fargo bank branch at Arcadia] in next coming [2 months] ?[Wealth/Loan Quantity : Loan Quantity of Money(W@wq$+?),Loan from : Name of the Loan Orgnization(Y.et),Predict Duration : Specify the coming days/months(Tr)]{OR}&lt;Sn/Y/W@wq+?&gt;60.0</value>
+    <comment>占卜未知數值 ?</comment>
+  </data>
+  <data name="Wealth008" xml:space="preserve">
+    <value>As compare to last [2] years of [26.5]% annualy average revenue... How many % of the return of revenue will be from &lt;my&gt; holding capital $[880000.0] quantity investing in [Alga Construction Company] in Coming at the end of [1] year ?[ : Input Past number of years(t), : Last 2 years % Return of revenue(wp$), : Quantity of Investing Capital(wq$),Stock Holding : Company/Orgnization name(Ye.et), : Specify this or next year(t),Expect Wealth Return % : (W@p?x)]{OD}&lt;Sn/Ye.et/W@p?&gt;80.0</value>
+    <comment>副事神 &amp;</comment>
+  </data>
+  <data name="Wealth009" xml:space="preserve">
+    <value>Will the price of &lt;my&gt; currently holding [Securities/Stocks of Apple Company] be raised [10]% up above &lt;my&gt; buying price after [6 months] ?[Hold Asset : Discription/Name of securities(Y.sc),Expect Wealth Earning % : Expect % above the buying Price(W@p?),Predict Duration : Specify holding duration(Tr)]{OD}&lt;Sn/Y.sc/W@p?&gt;80.0</value>
+  </data>
+  <data name="Wealth010" xml:space="preserve">
+    <value>&lt;I&gt; plan to buy the [Apple Company's Securities/Stocks] at it's current market price....  Will it's price be raised up by market above [10]% in next coming [6 months] ?[Hold Asset : Discription/Name of securities(Y.sc),Expect Wealth Earning % : Expect % above current market price(W@p?),Predict Duration : Specify holding duratio(Tr)]{OD}&lt;Sn/Y/W@p?&gt;80.0</value>
+  </data>
+  <data name="Wealth011" xml:space="preserve">
+    <value>&lt;I&gt; estimate [16]% to [20]% of annually return revenue for &lt;my&gt; share holding $[800000.0] in [Samuel Construction Company]... How many % of the revenue will be in coming in the end year of [2021] ?[ : Least earning %(wp1#), : Highest earning %(wp2#), : Share Holding Quantity(wq$),Hold Asset : Company name(Y.et), : This or next coming year(t),Expect Wealth Earning % : %(W@p?x)]{OD}&lt;Sn/Y/W@p?&gt;80.0</value>
+  </data>
+  <data name="Wealth012" xml:space="preserve">
+    <value>How is the future prospect regarding &lt;my&gt; wealth income and [Mental consolation Clinic] business development lucks... If &lt;I&gt; move to [ Taiwan Taipei ] in coming [12] years ?[Business/Career : Business/Career description(O.et),Move To Region : Intend Move in Area/Region(Ya.se),Predict Duration : Specify future duration(Tr),Wealth Luck : (W&amp;x)]{OD}&lt;Sn/Ya/W&amp;+/O@+&gt;80.0 </value>
+  </data>
+  <data name="Wealth013" xml:space="preserve">
+    <value>&lt;I&gt; intend to buy [1530 W. Durate Rd. Arcadia CA. 91007 real estate] at it's current $[680000.0] market appraisal Price... Will it's price be raised above [10]% by market in the future [2 years] ?[Real Estate at : Property address(Ya.ho.lv), : Current appraisal prise(wq$),Expect Wealth Earning above % : Expect raising up %(W@p?),Predicting Duration : How many year to hold(Tr)]{OD}&lt;Sn/Ya.ho.lv/W@p?&gt;80.0</value>
+  </data>
+  <data name="Wealth014" xml:space="preserve">
+    <value>How is the business and wealth earnings futue prosect for &lt;my&gt; [Lisa Beauty Hair style salon] business to move from current [San Franscisco] location to new [Los Angle] location will be in coming [12 years]... ?[Business : describe business and name(Y.et),Current Location Effect : Current Address/City/Country(Ja),Switch To Location Effect : Switch To Address/City/Country(Ka),Predict Duration : Select Duration(Tr),Wealth Prospect : (W&amp;x),Business Prospect : (O@x),Current Region Effect : (Jx),Switch To Region Effect : (Kx)]{AD}&lt;Sn/Y.et/O@/W&amp;/Ja/Ka&gt;80.0</value>
+  </data>
+  <data name="Wealth015" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Wealth016" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Wealth017" xml:space="preserve">
+    <value>(?): unknown, (O): Obtain_Lose, (w): wealth Select your wealth source|EqWealth7(W@w;  Select (|) Options</value>
+  </data>
+</root>

@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Eq0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq1Feng0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq1Feng1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq1Feng2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq1Feng3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq1Feng4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq1Feng5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqAidMain" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqAm_I" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqAnd" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqBaby0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqBaby1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqBoy" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqBrother" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqChange" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqChild" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqDateUnit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqDuration" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqExboy" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqExgirl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqExHusband" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqExWife" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqFeng0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqFeng1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqFeng2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqFeng3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqFeng4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqFeng5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqGirl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqHe" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqHer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqHerself" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqHimself" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqHis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqI" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMain" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMary0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMary1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMary2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMary3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMatch0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMatch1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMatch2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMatch3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMe" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMissX" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMrsX" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMrX" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMy" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMyao" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqMyself" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOfficer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOfMy" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOrgan0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOrgan1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOrgan10" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOrgan11" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOrgan2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOrgan3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOrgan4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOrgan5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOrgan6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOrgan7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOrgan8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqOrgan9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqParent" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqPlayboy" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqPlaygirl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqSelect" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqSgua" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqShe" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqSMyao" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqSyao" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqThem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqThey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqT_Date" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqT_Hour" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqT_Month" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqT_Year" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqUs" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqVice" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqWe" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqWealth0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqWealth1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqWealth2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqWealth3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqWealth4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqWealth5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqWealth6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqWife" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqYgua" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqYMyao" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EqYyao" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_AmI" xml:space="preserve">
+    <value>Am I</value>
+  </data>
+  <data name="Eq_he" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_her" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_herself" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_him" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_himself" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_his" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_Husband" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_me" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_my" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_myself" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_she" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_them" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_they" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_us" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_we" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eq_Wife" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays10" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays12" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays14" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays15" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays16" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays17" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays18" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays19" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays20" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays21" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays22" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays23" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays24" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays25" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays26" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays27" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays28" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szDays9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szHours12" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szHours16" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szHours20" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szHours24" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szHours4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szHours6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="szHours8" xml:space="preserve">
+    <value />
+  </data>
+</root>

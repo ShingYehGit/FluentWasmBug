@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Romance000" xml:space="preserve">
+    <value>If &lt;I&gt; invite [Miss] [Xname] a date [to go dancing party] with &lt;me&gt; on this coming [Friday evening]... Will (she) come ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : Invite MissX's or Mr's Name(Yn!),: Describe activity(m),: Specify the activity date(t),Being with me : (Y!@x)]{O}&lt;Sn/Y@n!&gt;8.0</value>
+    <comment>Miss/yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance001" xml:space="preserve">
+    <value>Will [Miss] [Xname] accept a date with &lt;me&gt; alone to go [campus rock and roll music concert] in [next Saturday evening] ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : Invite MissX's or Mr's Name(Yn!),: Describe activity(m),Specify the activity date(t),Being with me : (Y!@x)]{O}&lt;Sn/Y@n!&gt;8.0</value>
+    <comment>Miss/yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance002" xml:space="preserve">
+    <value>Just rescently only acquaint each other... Is [Miss] [Xname] willing to join &lt;me&gt; [to have BBQ] with &lt;my&gt; [family] in coming [this Saturday afternoon] ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : Invite MissX's or Mr's Name(Yn!),: Describe activity(m),Accompaning with : Participants(Mn),Specify the activity date(t),Being with me : (Y!@x)]{O}&lt;Sn/Mn/Y@n!&gt;8.0</value>
+    <comment>Miss/yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance003" xml:space="preserve">
+    <value>(Her) cell phone is not answering... Is [Miss] [Xname] on (her) way coming to date with &lt;me&gt; now ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : Date MissX's or Mr's Name(Yn!),Being with me : (Y!@x)]{O}&lt;Sn/Y@n!&gt;8.0</value>
+    <comment>Miss/yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance004" xml:space="preserve">
+    <value>[Mr.] [Xname] just being introuced by [sister in law Mrs. A]... Will (he) invite &lt;me&gt; alone to date with (him) in next coming [3 months]... When ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Mr. : Mr.X/boy's name who invite me(Yn!),Introduced by : Introducer's Name(Mn),Predict Duration : Select Duration(Tr),Being with me : (Y!@x)]{OR}&lt;Sn/Mn/Y@n!&gt;8.0</value>
+    <comment>Mr./yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance005" xml:space="preserve">
+    <value>Having been acquainting for a while... Will [Mr.] [Xname] invite &lt;me&gt; alone to date with (him) in next coming [3 months]... When ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Mr. : Mr.X or Miss's Name who invite me(Yn!),Predict Duration : Select Duration(Tr),Being with me : (Y!@x)]{OR}&lt;Sn/Y@n!&gt;8.0</value>
+    <comment>Mr./yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance006" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Romance007" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Romance008" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Romance009" xml:space="preserve">
+    <value>&lt;I&gt; sustituted by diviner in person</value>
+  </data>
+  <data name="Romance010" xml:space="preserve">
+    <value>(he)/(his)/(him) replaced by  (she)/(her)/(), (W@!) elaced y (O@)</value>
+  </data>
+  <data name="Romance011" xml:space="preserve">
+    <value>.sm girl/bo  wife/husand friend</value>
+  </data>
+  <data name="Romance012" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Romance013" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Romance030" xml:space="preserve">
+    <value>Romance</value>
+  </data>
+  <data name="Romance100" xml:space="preserve">
+    <value>Just being introuced by [sister in law Mrs. A]... How does [Miss] [Xname] be impressed about &lt;me&gt;... Will the romance occur to &lt;us&gt;... When ?[Introducer : Introducer's name(Mn),: Select Miss / Mrs. or Mr. for named X person(yn!.sm),Miss : Introuced MissX name for X person(Yn!.sm),Predict Duration : Select Duration(Tr),My Expect : (S@x),Be impressed about me : (Y=x)]{F}&lt;S@n/Mn/Y=n!&gt;24.0</value>
+    <comment>Miss/Mn/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance101" xml:space="preserve">
+    <value>Just come upon with each other in [LoveSpark date club]... Will the love of romance happen to &lt;me&gt; and [Miss] [Xname] to get together ever since... When ?[Meet at : Social club name(M.sl),: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : MissX name for X person(Yn!),Predict Duration : Select Duration(Tr),My Expect  : (S@x),Will Love happen to me : (Y=x)]{F}&lt;S@n/M/Y=n!&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance102" xml:space="preserve">
+    <value>Having been (her) [customer] for a while... Will there be a possibility for &lt;me&gt; to have a romantic relationship with [Miss] [Xname].... When ?[: Describe role of playing with her,: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : MissX name for X person(Yn!),Predict Duration : Select Duration(Tr),My Expect  : (S@x),Will Love happen to me : (Y=x)]{F}&lt;S@n/Y=n!&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance103" xml:space="preserve">
+    <value>Having been acquainting and working together a while... &lt;Am I&gt; attractive to [Miss] [Xname] ... ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : MissX name for X person(Yn!),My Expect  : (S@x),Am I attract to : (Y=x)]{F}&lt;S@n/Y=n!&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance104" xml:space="preserve">
+    <value>Having been acquainting a while... How does [Miss] [Xname] feel about &lt;me&gt;... Is there any possibility... that &lt;we&gt; can be boy-girl friend together... When ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : MissX name for X person(Yn!),Predict Duration : Select Duration(Tr),My Expect  : (S@x),Boy-Girl friend together : (Y=x)]{F}&lt;S@n/Y=n!&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance105" xml:space="preserve">
+    <value>&lt;I&gt; have been very often together with [Miss] [Xname] in this [Social Activity Club]... Will love happen between &lt;us&gt;.... When ?[: Select Miss /Mrs. or Mr. for named X person(yn!),Miss : MissX name for X person(Yn!),Being together in : Social activity club name(M.sl),Predict Duration : Select Duration(Tr),My Expect  : (S@x),Love happen together : (Y=x)]{F}&lt;S@n/M/Y=n!&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance106" xml:space="preserve">
+    <value>How the romantic boy and girl relationship will be evolving between &lt;me&gt; and [Miss] [Xname] in the future.... When ?[: Select Miss or Mr. for named X person(yn!),Miss : MissX name for X person(Yn!),Predict Duration : Select Duration(Tr),My Wish : (S@x),How Love OnGoing : (Y=x)]{F}&lt;S@n/Y=n!&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance107" xml:space="preserve">
+    <value>Since [quarrel].... not being together and phone each other for [several days]... Will there still be a possibility to resume the romantic boy and girl relationship with [Miss] [Xname] for &lt;me&gt; again.... When ?[: describe at thing conflicting(m): Input number of days/weeks(t),: Select Miss or Mr. for named X person(yn!),Miss : MissX name for X person(Yn!),Predict Duration : Select Duration(Tr),My Wish : (S@x),Resume the Love with : (Y=x)]{F}&lt;S@n/Y=n!&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance108" xml:space="preserve">
+    <value>Being not happy at mutual difference/contradictory aganist each other... Does [Miss] [Xname] painfully put efforts to adapt (herself) to &lt;my&gt; individual personality and value preference to deal with &lt;me&gt;... ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : MissX name for X person(Yn!),My Peference : (S@x),Unwilling being with : (Y=x)]{F}&lt;S@n/Y=n!&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance109" xml:space="preserve">
+    <value>Losing connection with  [Miss] [Xname] for several years... &lt;We&gt; are meeting again... Is there possible for &lt;me&gt; to resume romantic boy and girl relationship with (her) again in next coming [3 months]... when ?[: Select Miss / Mrs. or Mr. for Named X person(yn!),Miss : MissX name for X person(Yn!),Predict Duration : Select Duration(Tr),My Wish : (S@x),Resume the Love with : (Y=x)]{FR}&lt;S@n/Y=n!&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance110" xml:space="preserve">
+    <value>Owing to different preference / value choice... Does [Miss] [Xname] still bear &lt;me&gt; in &lt;her&gt; heart of love... Can &lt;we&gt; resume to get together again as &lt;we&gt; used to be in coming next [ 3 months]... When ?[Miss : Select Miss or Mr. for named X person(yn!),: MissX name for X person(Yn!),Predict Duration : Select Duration(Tr),My Wish : (S@x),Resume to get together : (Y=x)]{FR}&lt;S@n/Y=n!&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance111" xml:space="preserve">
+    <value>Having been acquainting for a [1 year] long ... Now can &lt;I&gt; go further to evolve [Miss] [Xname] to be &lt;my&gt; [girl] friend.... When ?[: Input number of years/month(t),: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : Miss / Mrs. name for named X person(Yn!),: Select girl or boy for friend(n!),Predict Duration : Select Duration(Tr),Wife : (W@!x.sm)]{OR}&lt;Sn/Yn!/W@!&gt;24.0</value>
+    <comment>Miss(W@!x.sm)/(yn!.sm)/(Yn!.sm)/girl(n!)</comment>
+  </data>
+  <data name="Romance112" xml:space="preserve">
+    <value>How is the current progress of our romantic ongoing between &lt;me&gt; and [Miss] [Xname] ... Is there any hidden [boy] poacher to compete aganist &lt;me&gt;... ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : MissX name for X person(Yn!),Hidden poacher : Select girl or boy for poacher(Mn!),My feeling : (S@x),How being with me : (Y=x)]{F}&lt;S@n/Mn!/Y=n!/Xn&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)/girl</comment>
+  </data>
+  <data name="Romance113" xml:space="preserve">
+    <value>How is the compatibility of induvidual personality and value preference between &lt;me&gt; and [Miss] [Xname]... Can &lt;I&gt; actively elvove (her) to be &lt;my&gt; [girl] friend ?[: Select Miss / Mrs.or Mr. for named X person(yn!),Miss : MissX name for X person(Yn!),: Select girl or boy for named X person(n!),My Adaptability : (S@x),Mutual compatibility : (Y=x)]{F}&lt;S@n/Y=n!&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)/girl(n!)</comment>
+  </data>
+  <data name="Romance114" xml:space="preserve">
+    <value>Does [Mr.] [Xname] unconciously conceal (his) real inside individual personal preference and personality to please &lt;my&gt; preference with a view to evolve &lt;me&gt; to become (his) [girl] friend ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Mr. : Mr.X name for X person(Yn!),: Select girl or boy for named X person(n!),My Feeling : (S@x),Real Inside Essentiality : (Y=x)]{F}&lt;S@n/Y=n!&gt;24.0</value>
+    <comment>Mr./(yn!.sm)/(Yn!.sm)/boy(n!)</comment>
+  </data>
+  <data name="Romance115" xml:space="preserve">
+    <value>Having misunderstanding without communicating with each other for about passing [20 days]... Will my [girl] friend [Miss] [Xname] actively contact &lt;me&gt;... when ?[: Input number of days/weeks(t),: Select boy or girl friend(n!),: Select Miss / Mrs. or Mr. friend(yn!),Miss : MissX name for X person(Yn!),Predict Duration : Select Duration(Tr),Wife : (W@!x.sm)]{OR}&lt;Sn/Yn!/W@n!&gt;60</value>
+    <comment>Miss(W@!x.sm)/girl(n!)/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance116" xml:space="preserve">
+    <value>Owing to [misunderstanding not be able to resolve]... Will the romantic relationship with &lt;my&gt; [girl] friend [Miss] [Xname] break up ?[: Describe misunderstanding(m),: Select boy or girl for friend(n!),: Select Miss / Mrs. or Mr. for friend(yn!),Miss : MissX name for X person(Yn!),Predict Duration : Select Duration(Tr),My feeling : (S@x),Match Feeling : (Y=x)]{F}&lt;S@n/Y=n!&gt;24.0</value>
+    <comment>Miss/girl(n!)/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance117" xml:space="preserve">
+    <value>Does [Miss] [Xname] really bear a sincerely love affection in getting along with &lt;me&gt; as (her) [boy] friend... or (she) mind someone else in (her) heart of love... ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : MissX name for X person(Yn!),: Select girl or boy for named X person(n!),My feeling : (S@x),Match Feeling : (Y=x),Someone Else : (Mnx)]{F}&lt;S@n/Mn/Y=n!&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)/boy(n!)</comment>
+  </data>
+  <data name="Romance118" xml:space="preserve">
+    <value>Is there any intruding hidden competitor who is chasing &lt;my&gt; [girl] friend [Miss] [Xname] ?[: Select boy or girl for friend(n!),: Select Miss / Mrs. or Mr. for friend(yn!),Miss : MissX name for friend(Yn!),My feeling : (S@x),Match Feeling : (Y=x),Hidden Intruder : (Mnx)]{F}&lt;S@n/Mn/Y=n!&gt;24.0 </value>
+    <comment>Miss/girl(n!)/(yn!.sm)/(Yn!.sm)</comment>
+  </data>
+  <data name="Romance119" xml:space="preserve">
+    <value>&lt;I&gt; just get accquaintance with [Miss] [Xname]... Does (she) currently have any [boy] friend... ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : Mr.X name for X person(Yn!),: Select boy or girl friend(n!),My feeling : (S@x),Match Feeling : (Y=x),Someone Else : (Xnx)]{F}&lt;S@n/Y=n!/Xn&gt;24.0</value>
+    <comment>Miss/(yn!.sm)/(Yn!.sm)/boy(n!)</comment>
+  </data>
+  <data name="Romance120" xml:space="preserve">
+    <value>Does &lt;my&gt; [girl] firend [Miss] [Xname] is still currently geting together with (her) [Ex-boy] friend... behind &lt;me&gt;... ?[: Select boy or girl for named X person(n!),: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : MissX name for X girl(Yn!),: Select Ex-boy or Ex-girl(Xn!),My feeling : (S@x),Match Feeling : (Y=x)]{F}&lt;S@n/Xn!/Y=n!&gt;24.0</value>
+    <comment>Miss/girl(n!)/(yn!.sm)/(Yn!.sm)/Ex-boy(Xn!)</comment>
+  </data>
+  <data name="Romance121" xml:space="preserve">
+    <value>Look like... &lt;my&gt; [boy] friend [Mr.] [Xname] is still currently geting together with [Miss] [Yname]... Does &lt;my&gt; [boy] feiend still sincerely love &lt;me&gt; in (his) heart ?[: Select girl or boy for named X person(n!),: Select Miss / Mrs. or Mr. for named X person(yn!),Mr. : Mr.X name for named X person(Yn!),: Select Miss / Mrs. or Mr. for named Y Poacher(jn!),Miss : MissY name for Y Poacher(Mn!),: Select girl or boy for named X person(n!),My feeling : (S@x),Match Feeling : (Y=x),A Poacher : (Mn!x.sm)]{F}&lt;S@n/Mn!/Y=n!&gt;24.0</value>
+    <comment>Mr./boy(n!)/(yn!.sm)/(Yn!.sm)/(jn!)/(Mn!)</comment>
+  </data>
+  <data name="Romance122" xml:space="preserve">
+    <value>Does this just currently acquaint [girl] friend [Miss] [Xname] seduce &lt;me&gt; for a sort of taking advantge from &lt;me&gt;... ?[: Select girl or boy for accquaint friend(n!),: Select Miss / Mrs. or Mr. for accquaint friend(yn!),Miss : MissX Name for Just acquaint friend(Yn!),My Safety/Peace : (S@nx),Changed Yao Action : (Xx)]{A}&lt;Sn@/Y=n!/X&gt;24.0</value>
+    <comment>Miss/girl(n!)/(yn!)/(Yn!)</comment>
+  </data>
+  <data name="Romance123" xml:space="preserve">
+    <value>Is [Mr.] [Xname] a [playboy]... fool &lt;my&gt; sincere affection of love to (him)... ?[: Select Miss / Mrs. or Mr. for playboy(yn!),Mr. : Mr.X name for X Playboy(Yn!),: Select playgirl or playboy(n!),My safety/peace : (S@x),Changed Yao Action : (Xx)]{A}&lt;Sn@/Yn!/X&gt;24.0</value>
+    <comment>Mr./(yn!.sm)/(Yn!.sm)/playboy(n!)</comment>
+  </data>
+  <data name="Romance124" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Romance125" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Romance126" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Romance160" xml:space="preserve">
+    <value>Marriage / Romance life</value>
+  </data>
+  <data name="Romance200" xml:space="preserve">
+    <value>Is there a marriageable match [girl] in &lt;my&gt; life journey... when will (she) show up... When ?[: Select girl or boy(n!),Predict Duration : Select Duration(Tr),Wife : (W@n!+x.sm)]{OR}&lt;Sn/W@n!+&gt;48.0</value>
+    <comment>girl/(W@!+x.sm)/girl(n!)</comment>
+  </data>
+  <data name="Romance201" xml:space="preserve">
+    <value>When shall &lt;I&gt; come upon with a marriageable match [girl] in &lt;my&gt; life... When ?[ : Select girl or boy(n!),Predict Duration : Select Duration(Tr),Wife : (W@!+x.sm)]{OR}&lt;Sn/W@!+&gt;48.0</value>
+    <comment>girl/(W@!+x.sm)/girl(n!)</comment>
+  </data>
+  <data name="Romance202" xml:space="preserve">
+    <value>When shall &lt;I&gt; come upon with a more suitable marriageable match [girl] in next coming [one year] ?[: Select girl or boy(n!),Predict Duration : Specify coming year/months(Tr),Wife : (W@+!x.sm)]{OR}&lt;Sn/W@+!&gt;48.0</value>
+    <comment>girl/(W@!+x.sm)/girl(n!)</comment>
+  </data>
+  <data name="Romance203" xml:space="preserve">
+    <value>Is there a marriageable match [girl] within &lt;my&gt; daily surrounding living and working ?[: Select girl or boy(n!),Predict Duration : Select Duration(Tr),Wife : (W@!x.sm)]{OR}&lt;S/W@!+&gt;48.0</value>
+    <comment>girl/(W@!+x.sm)/girl(n!)</comment>
+  </data>
+  <data name="Romance204" xml:space="preserve">
+    <value>If &lt;I&gt; join this [Rose Matching Club]... shall &lt;I&gt; come upon with a good marriageable match [girl] in coming [1 month] ?[Meet Marriageable match in : Social activity club name(Y.sl),: Select girl or boy(n!),Predicting duration : Specify coming months(Tr),Wife : (W@!+x.sm)]{OR}&lt;Sn/Y.sl/W@+!&gt;48.0</value>
+    <comment>girl/(W@!+x.sm)/girl(n!)</comment>
+  </data>
+  <data name="Romance205" xml:space="preserve">
+    <value>&lt;I&gt; have already join [Perfect Match matching club]... Will &lt;I&gt; come upon with a good marriageable match [girl] in next coming [1 month] ?[: Marriage Club Name(Y.sl),: Select girl or boy(n!),Predict Duration : Select Duration(Tr),Wife : (W@!x+.sm)]{OR}&lt;Sn/Y.sl/W@!+&gt;48.0</value>
+    <comment>girl/(W@!+x.sm)/girl(n!)</comment>
+  </data>
+  <data name="Romance206" xml:space="preserve">
+    <value>&lt;I&gt; decide to leave... Say "Good By" to &lt;my&gt; current [Wife]... Will there still be another new marriagable match [Woman] to show up in &lt;my&gt; futur life journey... When ?[Say "Good By" To : Select you want to leave|EqMatch4(n!),: Select Mary-Match|EqMary4(n!),Predict Duration : Select Duration(Tr),Wife : (W@!+x.sm)]{OR}&lt;Sn/W@!+&gt;48.0</value>
+    <comment>Woman/(W@!+x.sm)/Woman(n!)</comment>
+  </data>
+  <data name="Romance207" xml:space="preserve">
+    <value>Is [Miss] [Xname] being with &lt;me&gt; in that very gentle way out from (her) real nature personality... or (she) purposely conceals (herself) to behave in that way to please me... What is (her) real heart essentiality ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : MissX/girl's name(Yn!),My Hapiness : (S@x),How being with me : (Y=x)]{F}&lt;S@n/Y=n!&gt;48.0</value>
+    <comment>Miss/(yn!)/(Yn!)</comment>
+  </data>
+  <data name="Romance208" xml:space="preserve">
+    <value>If &lt;I&gt; marry [Miss] [Xname]... How the real reality of mutually being with each other in daily life will be in the future... Will (she) behave as &lt;we&gt; used to be getting together... ?[: Select Miss / Mrs. or Mr. for named X person(yn!),Miss : MissX/girl's name(Yn!),My Hapiness : (S@x),How being with me : (Y=x)]{F}&lt;S@n/Y=n!&gt;48.0</value>
+    <comment>Miss/(yn!)/(Yn!)</comment>
+  </data>
+  <data name="Romance209" xml:space="preserve">
+    <value>Can &lt;I&gt; express &lt;my&gt; heart affection feeling to marry [Miss] [Xname] now... How will (she) response...  will (she) promise &lt;my&gt; asking... when ?[: Select Miss or Mr. for named X person(yn!),Miss : MissX/girl's name(Yn!),Marriage Certificate : (P@x)]{OR}&lt;Sn/Yn!/P@&gt;48.0</value>
+    <comment>Miss/(yn!)/(Yn!)</comment>
+  </data>
+  <data name="Romance210" xml:space="preserve">
+    <value>what is the fate of boy and girl love scenario will be between [Miss] [Xname] and &lt;me&gt; in &lt;my&gt; life journey ?[: Select Miss or Mr. for named X person(yn!),Miss : MissX/girl's name(Yn!),My Happy life : (S@x),Happy life with me : (Y=x)]{A}&lt;S@n/Y=n!&gt;48.0</value>
+    <comment>Miss/(yn!)/(Yn!)</comment>
+  </data>
+  <data name="Romance211" xml:space="preserve">
+    <value>If &lt;I&gt; and [Miss] [Xname] were getting together to marry... How the wealth luck will be for &lt;us&gt; in boy and girl love fate life journey ?[: Select Miss or Mr. for named X person(yn!),Miss : MissX/girl's name(Yn!),Wealth Luck : (W@wx+)]{A}&lt;Sn/Yn!/W@w+&gt;48.0</value>
+    <comment>Miss/(yn!)/(Yn!)</comment>
+  </data>
+  <data name="Romance212" xml:space="preserve">
+    <value />
+    <comment>Miss/(yn!)/(Yn!)</comment>
+  </data>
+  <data name="Romance213" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Romance214" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Romance215" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Romance216" xml:space="preserve">
+    <value />
+  </data>
+</root>

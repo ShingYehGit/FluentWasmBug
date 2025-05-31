@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FengShui000" xml:space="preserve">
+    <value>How is the effect of &lt;my&gt; futue [Wealth + Self-Health] luck to be influenced by Feng Shui overall layout in &lt;my&gt; currently living house space at [630 W. Huntington Dr. 228-Apt. Arcadia Ca.] in coming [12 years]... ?[Feng Shui Effects : Select My Wealth + Self-Health|EqFeng6(Xm),Living House at : Living house address(Ya9.ho.lv),Predict Duration : Select Duration(Tr),Living Peace/Health : (S=x),Wealth Luck : (W@wx)]{AD}&lt;Sn=/Y9a/Xm/Ww@&gt;80.0</value>
+    <comment>living home</comment>
+  </data>
+  <data name="FengShui001" xml:space="preserve">
+    <value>&lt;I&gt; plan to [buy] this living house at [1131 S. Baldwin ave. C-Ste. Arcadia Ca.81007]... How the current Feng Shui overall layout effect of &lt;my&gt; future [Wealth + Self-Health] luck will be influenced in coming [12 years]... ?[: To rent or To buy,Living Houe at : Realeaste address(Y9a.ho.lv),Feng Shui Effects : Select My Wealth + Self-Health|EqFeng6(Xm),Predict Duration : Select Duration(Tr),Living Peace/Health : (S=x),Wealth Luck : (W@wx)]{AD}&lt;Sn=/Y9a/W@w&gt;80.0</value>
+    <comment>living home</comment>
+  </data>
+  <data name="FengShui002" xml:space="preserve">
+    <value>How to relocate 5 elements(Metal, Wood, Water, Fire, Earth) in Feng Shui overall layout to remove bad effect and to enhence &lt;my&gt; future [Wealth without harming Health] luck at living house at [1131 S. Baldwin ave. C-Ste. Arcadia Ca.81007] ?[Feng Shui Effects : Select My Wealth without harming Health|Eq1Feng6(Xm),Living House at : Living home address(Y9a.lv.ho),Living Peace/Health : (S=x),Wealth luck : (W@wx)]{A}&lt;Sn=/Y9a.lv/W@w&gt;80.0</value>
+  </data>
+  <data name="FengShui003" xml:space="preserve">
+    <value>After relocate 5 elements(Metal, Wood, Water, Fire, Earth) in Feng Shui overall layout at [1131 S. Baldwin ave. C-Ste. Arcadia Ca.81007] ... How is &lt;my&gt; expecting [Wealth without harming Health] being enhenced... How long these Feng Shui overall layout can be sustained ?[Living House at : Living home address(Y9a.et),Feng Shui Effects : Select My Wealth without harming Health|Eq1Feng6(Xm),Living Peace/Health : (S=x),Wealth luck : (W@wx)]{AR}&lt;Sn=/Y9a.lv/W@w&gt;80.0</value>
+  </data>
+  <data name="FengShui004" xml:space="preserve">
+    <value>How is the current Feng Shui overall layout to influent the products selling for &lt;my&gt; [Boy &amp; Girl dress store] business running at [11230 Garvey ave. H-Ste. El Monte Ca.91733] in coming [12 years] ?[Running Business : Business description and Name(Ss.et),Feng Shui at : Running Business address(Y9a.se.go),Predict Duration : Select Duration(Tr),Attracting Customer : (C&amp;x),Wealth Luck : (W@w+x)]{AD}&lt;Ss.et/Y9a/C&amp;/Ww@+&gt;80.0</value>
+    <comment>9 Feng Shui effect</comment>
+  </data>
+  <data name="FengShui005" xml:space="preserve">
+    <value>&lt;I&gt; plan to [rent] this store at [11230 Garvey ave. H-Ste. El Monte Ca.91733]... How is the Feng Shui overall layout to influent the futue products selling for &lt;my&gt; [Boy &amp; Girl dress store] business running in coming [12 years]... ?[: To rent or To buy(m),Feng Shui at : Running Business address(Y9a.se.go),Running Business : Business description and Name(Ss.et),Predict Duration : Select Duration(Tr),Attracting Customer : (C&amp;x),Wealth Luck : (W@w+x)]{AD}&lt;Ss.et/Y9a/C&amp;/Ww@+&gt;80.0</value>
+    <comment>.ho house</comment>
+  </data>
+  <data name="FengShui006" xml:space="preserve">
+    <value>How to relocate 5 elements(Metal, Wood, Water, Fire, Earth) in Feng Shui overall layout to remove bad effect and to enhence the futue products selling for &lt;my&gt; [Boy &amp; Girl dress store] business running address at [1131 S. Baldwin ave. C-Ste. Arcadia Ca.81007] in coming [12 years] ?[Running Business : Business description and Name(Ss.et),Feng Shui at : Running Business address(Y9a.se.go),Predict Duration : Select Duration(Tr),Attracting Customer : (C&amp;x),Wealth Luck : (W@w+x)]{AD}&lt;Ss.et/Y9a/C&amp;/Ww@+&gt;80.0</value>
+  </data>
+  <data name="FengShui007" xml:space="preserve">
+    <value>After relocate 5 elements(Metal, Wood, Water, Fire, Earth) in Feng Shui overall layout at [1131 S. Baldwin ave. C-Ste. Arcadia Ca.81007] ... How &lt;my&gt; expecting the futue products selling for &lt;my&gt; [Boy &amp; Girl dress store] business running be enhenced... How long these Feng Shui effect can be sustained ?[Feng Shui at : Running Business address(Y9a.se.go),Running Business : Business description and Name(Ss.et),Predict Duration : Select Duration(Tr),Attracting Customer : (C&amp;x),Wealth Luck : (W@w+x)]{AR}&lt;Ss.et/Y9a/C&amp;/Ww@+&gt;80.0</value>
+  </data>
+  <data name="FengShui008" xml:space="preserve">
+    <value>How is the current Feng Shui overall layout to influent the Enterprise future prosperity for &lt;my&gt; [Samuel Business Consulting Comany] to do Poduct development and sale at [11230 Garvey ave. H-Ste. El Monte Ca.91733] in coming [12 years] ?[Running Enterprise : Enterprise description and Name(Ss.et),Feng Shui at : Running Business address(Y9a.se),Predict Duration : Select Duration(Tr),Wealth Luck : (W&amp;wx),Enterprise Prosperity : (O@x)]{AD}&lt;Ss.et/Y9a.se/W&amp;w/O@&gt;80.0</value>
+    <comment>.lv   living house</comment>
+  </data>
+  <data name="FengShui009" xml:space="preserve">
+    <value>&lt;I&gt; plan to [rent] this office at [11230 Garvey ave. H-Ste. El Monte Ca.91733]... How is the Feng Shui overall layout to influent the Enterprise future prosperity for &lt;my&gt; [Samuel Business Consulting Comany] to do Poduct development and sale in coming [12 years]... ?[: To rent or To buy(m),Feng Shui at : Running Business address(Y9a.se),Running Enterprise : Enterprise description and Name(Ss.et),Predict Duration : Select Duration(Tr),Wealth Luck : (W&amp;wx),Enterprise Prosperity : (O@x)]{AD}&lt;Ss.et/Y9a.se/W&amp;w/O@&gt;80.0</value>
+  </data>
+  <data name="FengShui010" xml:space="preserve">
+    <value>How to relocate 5 elements(Metal, Wood, Water, Fire, Earth) in Feng Shui overall layout to remove bad effect and to enhence the Enterprise future prosperity for &lt;my&gt; [Samuel Business Consulting Comany] to do Poduct development and sale at [11230 Garvey ave. H-Ste. El Monte Ca.91733] in coming [12 years] ?[Running Enterprise : Enterprise description and Name(Ss.et),Feng Shui at : Running Enterprise address(Y9a.se.go),Predict Duration : Select Duration(Tr),Wealth Luck : (W&amp;wx),Enterprise Prosperity : (O@x)]{A}&lt;Ss.et/Y9a.se/W&amp;w/O@&gt;80.0</value>
+  </data>
+  <data name="FengShui011" xml:space="preserve">
+    <value>After relocate 5 elements(Metal, Wood, Water, Fire, Earth) in Feng Shui overall layout at [1131 S. Baldwin ave. C-Ste. Arcadia Ca.81007] ... How &lt;my&gt; expecting the futue prosperity for &lt;my&gt; [Samuel Business Consulting Comany] to do Poduct development and sale be enhenced... How long these Feng Shui effect can be sustained ?[Feng Shui at : Running Business address(Y9a.se.go),Running Enterprise : Enterprise description and Name(Ss.et),Predict Duration : Select Duration(Tr),Wealth Luck : (W&amp;wx),Enterprise Prosperity : (O@x)]{AR}&lt;Ss.et/Y9a.se/W&amp;w/O@&gt;80.0</value>
+  </data>
+  <data name="FengShui012" xml:space="preserve">
+    <value>How to relocate 5 elements(Metal, Wood, Water, Fire, Earth) in Feng Shui overall layout to remove bad effect and to enhence &lt;I&gt; and &lt;my&gt;[wife] to have a [baby without damaging Career] at [11230 Garvey ave. H-Ste. El Monte Ca.91733] living house... ?[: Input Wife or Husband(n),Feng Shui Effects : Select Baby without damaging Career|EqFeng6(Xm)Feng Shui at : Living House address(Y9a.se.go),Have a Baby Luck : (C@x)]{A}&lt;Ss.et/Y9a.se/W&amp;w/O@&gt;80.0</value>
+  </data>
+  <data name="FengShui013" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FengShui014" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FengShui015" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FengShui016" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FengShui017" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FengShui018" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FengShui019" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FengShui020" xml:space="preserve">
+    <value>Living Peace/Health : (S@x)]{AD}&lt;Sn@/Xm/Y9a&gt;80.0</value>
+  </data>
+  <data name="FengShui021" xml:space="preserve">
+    <value>Wealth Luck : (W@wx)]{AD}&lt;Sn/Xm/Y9a/Ww@&gt;80.0</value>
+  </data>
+  <data name="FengShui022" xml:space="preserve">
+    <value>Career Luck : (O@f.pfx)]{AD}&lt;Sn/Xm/Y9a/O@f&gt;80.0</value>
+  </data>
+  <data name="FengShui023" xml:space="preserve">
+    <value>Living Peace/Health : (S=x),Wealth Luck : (W@wx)]{AD}&lt;Sn=/Y9a/Xm/Ww@&gt;80.0</value>
+  </data>
+  <data name="FengShui024" xml:space="preserve">
+    <value>Living Peace/Health : (S=x),Career Luck : (O@fx)]{AD}&lt;Sn=/Xm/Y9a/O@f&gt;80.0</value>
+  </data>
+  <data name="FengShui025" xml:space="preserve">
+    <value>Wealth Luck : (W@wx),Career Luck : (O@fx)]{AD}&lt;Sn/Xm/Y9a/Ww&amp;/O@f&gt;80.0</value>
+  </data>
+  <data name="FengShui026" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FengShui027" xml:space="preserve">
+    <value>Living Peace/Health : (S@x)]{AD}&lt;Sn@/Xm/Y9a&gt;80.0</value>
+  </data>
+  <data name="FengShui028" xml:space="preserve">
+    <value>Wealth Luck : (W@wx)]{AD}&lt;Sn/Xm/Y9a/Ww@&gt;80.0</value>
+  </data>
+  <data name="FengShui029" xml:space="preserve">
+    <value>Career Luck : (O@f.pfx)]{AD}&lt;Sn/Xm/Y9a/O@f&gt;80.0</value>
+  </data>
+  <data name="FengShui030" xml:space="preserve">
+    <value>Wealth Luck : (W@wx)]{AD}&lt;Sn/Xm/Y9a/Ww@&gt;80.0</value>
+  </data>
+  <data name="FengShui031" xml:space="preserve">
+    <value>Career Luck : (O@f.pfx)]{AD}&lt;Sn/Xm/Y9a/O@f&gt;80.0</value>
+  </data>
+  <data name="FengShui032" xml:space="preserve">
+    <value>Wealth Luck : (W@wx),Career Luck : (O@fx)]{AD}&lt;Sn/Xm/Y9a/Ww&amp;/O@f&gt;80.0</value>
+  </data>
+  <data name="FengShui033" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FengShui034" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FengShui035" xml:space="preserve">
+    <value />
+  </data>
+</root>

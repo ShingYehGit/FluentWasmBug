@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Trip000" xml:space="preserve">
+    <value>How this tour trip around [New York city] will be for &lt;me&gt; in [next coming 2 weeks] ?[Tour around : Destination name(Ya),Predict Duration : Select Duration(Tr),My safety : (Sn@x)]{A}&lt;S@/Ya&gt;32.0</value>
+  </data>
+  <data name="Trip001" xml:space="preserve">
+    <value>Will this trip to visit &lt;my&gt; [brother] [ Mr.X] at [Denver] be happy for &lt;me&gt; in [this coming summer] ?[ : Relative or Firend, : Friend's / Brother's name(Yn),Predict Duration : Select Duration(Tr),My happiness : (S@x)]{F}&lt;Sn@/Yn&gt;32.0</value>
+  </data>
+  <data name="Trip002" xml:space="preserve">
+    <value>Will this [Diamond Princess cruise line] touring [around Aegen sea] be safe and happy for &lt;me&gt; within coming [July09 to July20] ?[Boarding on : Transportation/Cruise line name(M.tp),Around : Touring area/router name(Ya),Predict Duration : Select Duration(Tr),My safety : (S@x)]{A}&lt;Sn@/M.tp/Ya&gt;32.0</value>
+  </data>
+  <data name="Trip003" xml:space="preserve">
+    <value>Will this [China Air Flight-038] fly &lt;me&gt; safe from [Taipei] to [Los Angle] in [Jul07 to Jul08] ?[Boarding on : Air plane name &amp; Flight No(M.tp),From City : From city name(Ja),To City : To city name(Ya), : Date of flight(t),My safety : (S@x)]{A}&lt;Sn@/M.tp/Ya/Ja&gt;32.0</value>
+  </data>
+  <data name="Trip004" xml:space="preserve">
+    <value>Will it be safe for &lt;me&gt; to drive [Ford Taurus2020] from [Los Angle] to [Denver] along [I-25 Free High Way] in coming [Aug09 to Aug11 2 days] ?[Drive : Vehicle description(P&amp;.tp),From location : From location(Ja),: To Location : To location(Ya),Along : Along which way(M.ph),Predict Duration : Select Duration(Tr),My safety : (S@x)]{A}&lt;Sn@/M.ph/Ya/P&amp;/Ja&gt;32.0</value>
+  </data>
+  <data name="Trip005" xml:space="preserve">
+    <value>&lt;I&gt; decide to [walk to the Valley buttom] in [Great Canyon park] to have a sightseeing... How it will be ?[Activity : Discribe activity(Xm), Tour around : Location or Area(Ya),My safety : (S@x)]{A}&lt;Sn@/Ya/Xm&gt;32.0</value>
+  </data>
+  <data name="Trip006" xml:space="preserve">
+    <value>How &lt;my&gt; money wealth luck will be for &lt;me&gt; to [play pork] in this [Larzarus Casino] in [coming next Friday afternoon] ?{Gamble : Discribe gamble name(Mm),Casino at : Casino name(Ya),Duration : Verify date timing(T),Wealth Luck : (W@wx)]{O}&lt;Sn/Mm/Ya/W@w&gt;32.0</value>
+  </data>
+  <data name="Trip007" xml:space="preserve">
+    <value>Will there be any surprising romantic single [girl] mate &lt;I&gt; can meet by joining this [Lion Travel Agent] toruing group to [Tokoy] in coming [1 week] ?[ : Select girl or boy(n!),Travel with : Travel agent name(Y.et),Touring around : Touring Area(a),Predict Duration : Select Duration(Tr),Wife : (W@!x.sm)]{O}&lt;Sn/Y.et/W@!&gt;32.0</value>
+  </data>
+  <data name="Trip008" xml:space="preserve">
+    <value>With the [Heart Pacemaker] in my body and [70] years old age, Can &lt;I&gt; safely sustaint a long flight on [China Air Flight-038] from [Taipei] to [Los Angle] in coming [May 20] ?[Auxiliary : Name(.sg), Age : ;Boarding on : Air plane name &amp; Flight No(M.tp),From City : From city name(Ja),To City : To city name(Ya), : Date of flight(t),My Life Safety : (S@x)]{A}&lt;Sn@/M.tp/Ya/Ja&gt;32.0</value>
+  </data>
+  <data name="Trip009" xml:space="preserve">
+    <value>With the [High Blood Pressure] in my body and [70] years old age, Can &lt;I&gt; safely sustaint a long flight on [China Air Flight-038] from [Taipei] to [Los Angle] in coming [May 20] ?[Sickness : Name(.sg), Age : ;Boarding on : Air plane name &amp; Flight No(M.tp),From City : From city name(Ja),To City : To city name(Ya), : Date of flight(t),My Life Safety : (S@x)]{A}&lt;Sn@/M.tp/Ya/Ja&gt;32.0</value>
+  </data>
+  <data name="Trip010" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Trip011" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Trip013" xml:space="preserve">
+    <value />
+    <comment>Heart Stent / 心臟支架, Heart Bypass / 心臟搭橋術 , Heart Pacemaker / 心臟起搏器</comment>
+  </data>
+  <data name="Trip014" xml:space="preserve">
+    <value />
+    <comment>[: (), : (), : ()]{}&lt;&gt;</comment>
+  </data>
+  <data name="Trip015" xml:space="preserve">
+    <value />
+    <comment>[ Editing Parameter Replacement ]</comment>
+  </data>
+</root>

@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="House000" xml:space="preserve">
+    <value>What is the effect of wealth and health luck for (me) about currently living in [256 S. Baldwin Blvd. Arcadia CA.] house ?[House Address(YA)]{AO}&lt;S&amp;/Y/W@&gt;100</value>
+    <comment>Health / Wealth Diagnosis</comment>
+  </data>
+  <data name="House001" xml:space="preserve">
+    <value>What will be the effect of wealth and career luck for (me) to live in [630 W. Huntington Dr. 228 Apt. Arcadia CA.] house ?[House Address(Y)]/S/Y/W&amp;/O@/200</value>
+  </data>
+  <data name="House002" xml:space="preserve">
+    <value>What is the business developable luck/carriage for (me) to move in this [256 W. FootHill Blvd. Monrovia CA] office where (I) want to start (my) business ?[Office Address(Y)]/S/Y/O@/200</value>
+  </data>
+  <data name="House003" xml:space="preserve">
+    <value>What will be the wealth luck for (me) to run business in [346 S. Rosemead E. Pasadena CA.] storefront ?[Frontstore Address(Y)]/S/Y/W@/200</value>
+  </data>
+  <data name="House004" xml:space="preserve">
+    <value>What will be wealth luck for (me) to run business in [Pasadena county] region ?[County/Region Name(Y)]/S/Y/W@/200</value>
+  </data>
+  <data name="House005" xml:space="preserve">
+    <value>Will [2Level 400 S. Baldwin Ave. Westfield Arcadia CA.] booth well exhibit product and invoke customers to bring profits for (my) business ?[Booth Address(Y)]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House006" xml:space="preserve">
+    <value>How is the currently pricing state regarding (my) real estate at [245 E. Colorado Blvd. Lamada Park CA.] in market ?[Real Estate Address(Y)]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House007" xml:space="preserve">
+    <value>How is the [$500,000.0] appraisal pricing state for (my) real estate at [256 Longden Blvd. San Marino CA.] in current market ?[Appraisal Price(W),Real Estate Address(Y)]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House008" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House009" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House020" xml:space="preserve">
+    <value>To buy</value>
+  </data>
+  <data name="House100" xml:space="preserve">
+    <value>Will it bring wealth for (me) to buy [256 E. MockingBird Ln Lackwood Tx.] land... How is the future pricing prospect of it in coming one more year ?[Land Location](Y)/S/Y/C/W@/200</value>
+  </data>
+  <data name="House101" xml:space="preserve">
+    <value>(I) intend to invest more than one year... What is the wealth prospect for (me) to buy [56 N. Buckner Blvd. Casa Linda Tx.] real estate ?[Real Estate Address(Y)]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House102" xml:space="preserve">
+    <value>How the future price will be for [45 Grove St. Greenwinch Village NY.] real estate which (I) intend to invest more than one year ?[Real Estate  Address(Y)]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House103" xml:space="preserve">
+    <value>(I) have already owned this [66 W. Southmore Ave. Pasadena Huston TX] house for one more year... Will the price of it rise up ?[House  Address(Y)]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House104" xml:space="preserve">
+    <value>How is the futute price evolving for (my) current one more year owning [66 Navigation Blvd. Second Ward Huston TX.] real estate in coming next year ?[Real Estate  Address(Y)]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House105" xml:space="preserve">
+    <value>Can (I) buy [56 E. 6th Ave. Aurora Co.] real estate at [$560,000.0] [cost price] to earn profit after one year ?[Real Estate Address(Y),Bit Price Quantity(W),Describe Pricing Method]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House106" xml:space="preserve">
+    <value>Is it profitable for (me) to buy [126 W. Oxford Ave. Eaglewood Denver CO.] real estate at [$460,000.0] [appraisal price]... Will it's price still rise up after one year ?[Real Estate Address(Y),Bit Price Quantity(W),Describe Pricing Method]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House107" xml:space="preserve">
+    <value>Can (I) persist my [$800,000.0] offering price... to buy out that [66 E. 8Th Ave. Thronton Denver Co.] real estate from [Owner Mr. X] ?[Offering Price(W),Real Estate Address,Owner Name(Y)]/S/Y/W@/200</value>
+  </data>
+  <data name="House108" xml:space="preserve">
+    <value>Can (I) persist my [$660,000.0] offering price... Will the owner [Mr. X] still want to sell that [256 Longden Blvd. San Marino CA.] real estate to (me) through [Mr. Y] agent ?[Offering Price(W),Owner Name(Y),Real Estate Address,Agent/Mr. Y Name]/S/M/Y/W@/200</value>
+  </data>
+  <data name="House109" xml:space="preserve">
+    <value>How much is the adjustment aganist [$660,000.0] appraisal price for (me) to buy out that [346 S. Rosemead E. Pasadena CA.] real estate ?S/Y[Real Estate Address]/C/W{Appraisal Price}@/200</value>
+  </data>
+  <data name="House110" xml:space="preserve">
+    <value>Will [Mr. X] customer buy this [256 E. MockingBird Ln Lackwood Tx.] real estate at my client [Mr. Y]'s [$680,000.0] target price ?[Client/Mr.X Name,Real Estate Address(Y),Customer/Mr.Y Name,Target Price(W)]/Ss/M/Y/W@/200</value>
+  </data>
+  <data name="House111" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House112" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House113" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House114" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House130" xml:space="preserve">
+    <value>To sell</value>
+  </data>
+  <data name="House200" xml:space="preserve">
+    <value>Will it be profitable for (me) to sell my [126 W. Oxford Ave. Eaglewood Denver CO.] real estate which (I) have owned one more year... now ?[Real Estate Address(Y)]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House201" xml:space="preserve">
+    <value>When is the most profitalbe timing for (me) to sell (my) owning one more year [256 Longden Blvd. San Marino CA.] real estate ?[Real Estate Address(Y)]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House202" xml:space="preserve">
+    <value>Can (I) have my owning one year more [256 E. MockingBird Ln Lackwood Tx.] real estate to sell out above [$660,000.0] appraisal price within the [Mr. X] agent's contracting period of [3 months] ?[Real Estate Address(Y),Appraisal Price,Agent/Mr. X Name,Contract Period]/S/M/Y/C/W@/200</value>
+  </data>
+  <data name="House203" xml:space="preserve">
+    <value>If (I) persist the target [$660,000.0] price... not including [Mr. X] agent fee... Will [Mr. Y] Buyer still want to buy my [256 E. MockingBird Ln Lackwood Tx.] real estate ?[Target Price(W),Buyer Name,Mr.X/Agent Name,Real Estate Address(Y)]/S/M/Y/C/W@/200</value>
+  </data>
+  <data name="House204" xml:space="preserve">
+    <value>Can (I) have (my) owning one year more [56 N. Buckner Blvd. Casa Linda Tx.] real estate to be sold out at [$880,000.0] target priece within [3 months] ?[Real Estate Address(Y),Target Price(W),Sale Duration]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House205" xml:space="preserve">
+    <value>I mark my [256 E. MockingBird Ln Lackwood Tx.] real estate at [$880,000.0] price... How the market sale will be... Is this price too low ?[Real Estate Address(Y),Target Price(W)]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House206" xml:space="preserve">
+    <value>Seveal price offering below the [$460,000.0] appraisal price... sale is about to closed... Is there still some higher offering I can wait to sell my [256 E. MockingBird Ln Lackwood Tx.] real estate at my [$500,000.0] target price ?[Appraisal Price(W),Real Estate Address(Y),Target Price]/S/Y/C/W@/200</value>
+  </data>
+  <data name="House207" xml:space="preserve">
+    <value>How the suggesting [$560,000.0] appraisal price from [Mr. X] agent will be... Can I still persist my [$600,000.0] target higher price to have my [245 E. Colorado Blvd. Lamada Park CA.] real estate salable in market ?[Apprasal Price,Mr.X/Agent Name,Target Price,Real Estate Address(Y)]/S/M/Y/C/W@/200</value>
+  </data>
+  <data name="House208" xml:space="preserve">
+    <value>If (I) mark my [$800,000.0] target price higher than the [$750,000.0] appraisal price... Will my [456 W. Rooselvelt Rd. University Village IL.] real estate still salable through &lt;Mr. X&gt; agent ?[Target Price,Apprasal Price,Real Estate Address(Y),Mr.X/Agent Name]/S/M/Y/C/W@/200</value>
+  </data>
+  <data name="House209" xml:space="preserve">
+    <value>Will [Mr. X] owner sell his [256 E. MockingBird Ln Lackwood Tx.] real estate to my customer [Mr. Y]  at his [$800,000.0] offering price lower than the [$850,000.0] appraisal price ?[Mr. X/Owner(S),Real Estate Address,Mr. Y/Customer Name(Y),Offering Price(W),Apprasal Price]/Ss/Y/W@/200</value>
+  </data>
+  <data name="House210" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House230" xml:space="preserve">
+    <value>To Rent</value>
+  </data>
+  <data name="House301" xml:space="preserve">
+    <value>Can (I) continue to rent this [126 W. Oxford Ave. Eaglewood Denver CO.] real estate from [Mr. X] landlord at this [$2,500.0] amount of rent ?[Real Estate Address,Landlord Nam(Y),Rent Quantity(W)]/S/Y/P@/200</value>
+  </data>
+  <data name="House302" xml:space="preserve">
+    <value>If (I) continue to rent [56 N. Buckner Blvd. Casa Linda Tx.] real estate, Will [Mr. X] landlord increase my rent... How many % will be increased ?[Real Estate Address,Landlord Name(Y)]/S/Y/W/P@/200</value>
+  </data>
+  <data name="House303" xml:space="preserve">
+    <value>Can (I) continue to pay the same [$2,500.0] amount of rent to rent [256 Longden Blvd. San Marino CA.] real estate from [Mr. X] landlord ?[Rent Quantity,Real Estate Address,Landlord Name(Y)]/S/Y//P/200</value>
+  </data>
+  <data name="House304" xml:space="preserve">
+    <value>Is there someone willing to pay higher rent than (my) current [$2,600.0] rent to rent this [256 S. Baldwin Blvd. Arcadia CA.] real estate from [Mr. X] landlord ?S/Y[Rent Quantity(W),Real Estate Address,Landlord Name(Y)]/S/Y/W@/X/200</value>
+  </data>
+  <data name="House305" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House306" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House307" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House320" xml:space="preserve">
+    <value>To Lease</value>
+  </data>
+  <data name="House400" xml:space="preserve">
+    <value>Will [Mr. X] tenant rent my [240 Geary Blvd. Inner Richmond Sanfancisco CA.]  real estate at my [$4,500.0/Month] target price ?[Mr.X/Tenant Name, Real Estate Address,Rent /Month]/S/Y/W/200</value>
+  </data>
+  <data name="House401" xml:space="preserve">
+    <value>Can I persist the rent at [$2,600.0/month] for [260 Gaston Ave. Munger Place Dallas Tx.] my real estate in current market to be leased ?[Rent/Month(W),Real Estate Address(Y)]/S/Y/X@/200</value>
+  </data>
+  <data name="House402" xml:space="preserve">
+    <value>When can (I) have my [256 Longden Blvd. San Marino CA.] real estate to be leasted at this [$3,600.0/month] rent ?[Real Estate Address(Y),Rent/Month]/S/Y/W@/200</value>
+  </data>
+  <data name="House403" xml:space="preserve">
+    <value>After [Mr. X] tenant visit my [126 W. Oxford Ave. Eaglewood Denver CO.] real estate ... Will he rent my real estate at [$2,600.0/month] ?[Tenant Name(Y),Real Estate Address,Rent/Month]/S/Y/W@/200</value>
+  </data>
+  <data name="House404" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House405" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House420" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="House500" xml:space="preserve">
+    <value>Can (Mr. X) real estate agent sell (my) [346 S. Rosemead Blvd. Pasadena CA.] real estate at highest price ?[Mr. X/Agent Name,Real Estate Address(Y)]/S/M/Y/C/W@/200</value>
+  </data>
+  <data name="House501" xml:space="preserve">
+    <value>Will [Mr. X] real estate agent can sell my [256 Longden Blvd. San Marino CA.] real estate above (my) [$680,000.0] target price without agent fee ?[Mr. X/Agent Name,Real Estate Address(Y),Target Price(W)]/S/M/Y/W@/200</value>
+  </data>
+  <data name="House502" xml:space="preserve">
+    <value>Will (Mr. X) real estate agent sell my [66 W. Southmore Ave. Pasadena Huston Tx.] real estate above the [$980,000.0] appraisal price  without agent fee within the sale contract duration ?[Mr. X/Agent Name,Real Estate Address(Y),Appraisal Price(W)]/S/M/Y/W@/200</value>
+  </data>
+  <data name="House503" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House504" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House505" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House520" xml:space="preserve">
+    <value>architectural layout plan</value>
+  </data>
+  <data name="House600" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House601" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House602" xml:space="preserve">
+    <value />
+  </data>
+  <data name="House603" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Good000" xml:space="preserve">
+    <value>Will it safe and peaceful for &lt;me&gt; to go to [cnstruction site] there within next coming [8 hours] ... ?[Location/Area : Leave for Location/Area(Ya),Divine Duration : Select Duration(Tr),Physical safety : (S@x),Unforeseen Event : (X~)]{AR}&lt;S@/Ya/X~&gt;16.0</value>
+  </data>
+  <data name="Good001" xml:space="preserve">
+    <value>Can &lt;I&gt; pass through a safe and peaceful outside home house activity without any unexpected accident happening to &lt;me&gt; to damage my physical health Within next coming [1 year]... ?[Divine Duration : Select Duration(Tr),Physical safety : (S@x),Unforeseen Event : (X~)]{AR}&lt;S@/X~&gt;16.0</value>
+  </data>
+  <data name="Good002" xml:space="preserve">
+    <value>Can &lt;I&gt; pass through a safe and peaceful in home house living without any unexpected accident happening to &lt;me&gt; Within next coming [1 year]... ?[Divine Duration : Select Duration(Tr),Physical safety : (S@x),Unforeseen Event : (X~)]{AR}&lt;S@/X~&gt;16.0</value>
+    <comment>u physical organ</comment>
+  </data>
+  <data name="Good003" xml:space="preserve">
+    <value>How is &lt;my&gt; physical [Cardiovascular system] organ health state within coming [1 year] ... ?[Physical Organ : Select Physical Organ|EqOrgan12(Xu),Divine Duration : Select Duration(Tr),Physical Health : (S@x),Unforeseen Event : (X~)]{AR}&lt;S@/Xu~&gt;16.0</value>
+    <comment>x : not include in displaying lable but include in SubQuery</comment>
+  </data>
+  <data name="Good004" xml:space="preserve">
+    <value>Just get lost.... (his) Cell phone is not answering... somewhere in [Nevada Carson desert on Free High Way 80]... Having not been found for [several hours]... How is [Mr.X name] right now... Is (he) still safe and alive ?[Location/Area : Area / Location(a),Divine Duration : Select Duration(Tr),Mr. : Substitute for person's X name(S@sn),Life safety : (S@nsx),Unforeseen Event : (X~)]{AR}&lt;S@sn/X~&gt;8.0</value>
+    <comment>&lt;S@s&gt;    世爻 is substituted by current diviner</comment>
+  </data>
+  <data name="Good005" xml:space="preserve">
+    <value>Missing somewhere in [Yellow Stone park]... Having not been found for [several days]... How is [Mr.X name] right now... Is (he) still safe/alive ?[Location : Area Location(a),Divine Duration : Select Duration(Tr),Mr. : Substitute for person's X name(S@sn),Life safety : (S@x),Unforeseen Event : (X~)]{AR}&lt;S@sn/X~&gt;8.0</value>
+  </data>
+  <data name="Good006" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Good007" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Good008" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Good070" xml:space="preserve">
+    <value>[ Check Action !? ]</value>
+  </data>
+  <data name="Good100" xml:space="preserve">
+    <value>If &lt;I&gt; decide to work in this [Software Dept. in Alga Company] as a [entry level Software Engr.]... How is the career/job security in coming [1 year]...?[Work in : Company name(Ye.et),Work as a : Job/Profession Description (O@f.pf),Divine Duration : Select Duration(Tr),Supervisor/Colleagues : (Mx),My adaptivity/life peace : (Jx),Friendly working evronment : (Kx),Job Security : (O@f.pfx)]{AD}&lt;Sn/Mn/Ye/O@f/J/K&gt;32.0</value>
+    <comment>J 世卦角色/K 應卦角色</comment>
+  </data>
+  <data name="Good101" xml:space="preserve">
+    <value>How is the auspicious and ominious prospect regarding the wealth luck for &lt;me&gt; to open &lt;my&gt; [Construction Material suply business] at this [5821 Temple City Blvd. Temple City CA.91780] in coming [3 years]...?[Running Business : Input Business category/description(S=.et),Location at : Input adress/location(Ya),Divine Duration : Select Duration(Tr),Money/Revenue Earnings : (W@wh+x),Product Quality/Merit : (Jx.go),Marketing Costomer Potentiality : (Kx.ct)]{AD}&lt;S=.et/Ya/W@wh+/J/K&gt;48.0 </value>
+    <comment>*Concern String* / Money : *Revenue Earnings*(W@wh+x) / .ct customer</comment>
+  </data>
+  <data name="Good102" xml:space="preserve">
+    <value>How it will be... If &lt;I&gt; [refuse to corporate with] [Mr.] [Xname] with regard to [this design project]... What will bring about to &lt;my&gt; [accounting assistant] Job security ?[ : Intend action, : Select Miss / Mrs. or Mr. for named X person(yn!),Conflicter : Conflicter/Mr.X name(Yn!), : Describe conflicting thing(Mm),Job/Career : Input Job description(O@f.pf),Changing Matter To Me : (S=x),Job Security : (O@fx)]{AD}&lt;S=n/Mm/Yn!/O@f&gt;32.0</value>
+    <comment>n : Name, ! : Male / Female</comment>
+  </data>
+  <data name="Good103" xml:space="preserve">
+    <value>If &lt;I&gt; demand to [increase current monthly salary by 20%]... How will &lt;my&gt; [Boss] [X name] response... What will bring about regarding &lt;my&gt; [job] working in [Software Dept. in Alga Company] ...?[Intend Action : What you intend to do,: Input Manager or Boss or Director(jn),Boss : Influencer / X name(Mn),Career/Job : Describe Profession/Position(Of.pf),Orgazination/Company : Describe Orgazination(Ye.et),Job Security : (O@f.pfx)]{AD}&lt;Sn/Mn/Ye/O@f&gt;32.0</value>
+    <comment>(jn)+(jn)+(Mn!) patch together</comment>
+  </data>
+  <data name="Good104" xml:space="preserve">
+    <value>The [blizzard is so heavy]... If &lt;I&gt; [keep to drive car further]... How it will be... Any bad thing unexpected  ahead... ?[Unknown/Danger : Describe the critial situation(m),Intend To Do : Describe intend to do(X),Life safety : (S@x)]{AD}&lt;S@n/X~&gt;48.0</value>
+  </data>
+  <data name="Good105" xml:space="preserve">
+    <value>[On this heavily snowing slippy I-25 Free high way] .... Can &lt;I&gt; [keep driving car forward on this way further]... Is it safe ?[Critial situation : Discribe the critial situation(m),Intend To Do : What intend to do(X),Life safety : (S@x)]{AD}&lt;S@n/X~&gt;48.0</value>
+  </data>
+  <data name="Good106" xml:space="preserve">
+    <value>If &lt;I&gt; [detour to 210 W. high way]... How it will be... Is it safe for &lt;me&gt; to do action further... ?[Intend Action : Intend action(Ym),Unknown/Danger : (X),Life Safety : (S@x),Changing Matter : (X~)]{AD}&lt;S@n/Ym/X~&gt;48.0</value>
+  </data>
+  <data name="Good107" xml:space="preserve">
+    <value>If &lt;I&gt; take this [NW Flight No25 air plane] from [Los Angle]... Wll it be safe and peaceful for &lt;me&gt; to reach [Chicago] on [Oct.26 morning]... ?[Transportation : Describe your transportation(Mg.tp),From city : From city(Ja),To city : Your destination(Ya), : Input departure date(t), Weather/Climate : (P~x),Life Safety : (S@x)]{AD}&lt;S@n/Ja/Mg/Ya/P~&gt;48.0</value>
+  </data>
+  <data name="Good108" xml:space="preserve">
+    <value>How &lt;my&gt; life health will be effected by the Feng Shui effect at [256 Mountain View Blvd. El Monte CA.]... if &lt;I&gt; move in there as my living house in coming [2 years]... ?[Feng Shui at : Living House address(Ya),Predict Duration :  Select Duration(Tr),Good Health/Living Peace : (S@x))]{AD}&lt;S@n/Ya&gt;48.0</value>
+  </data>
+  <data name="Good109" xml:space="preserve">
+    <value>Will it be peaceful and safe for &lt;me&gt; to travel to [North Korea] [in next 2 coming months] ?[Travel Area : Area name(Ya),Predict Traveling Duration :  Select Duration(Tr),Life Safety/Living Peace : (Sn@x)]{AR}&lt;S@n/Ya&gt;48.0</value>
+  </data>
+  <data name="Good110" xml:space="preserve">
+    <value>Will it be peaceful and safe for &lt;me&gt; to study [Civil Engineerin Master] at that [Austrilia Sydney University] for next coming [2 years] ?[Activity : Input Study/Activity(P=m),Study School : School name(Y.sh),Predict activity Duration : Select Duration(Tr),Life Safety/Living Peace : (Sn@x)]{AR}&lt;S@n/Y.sh/P=m&gt;48.0</value>
+  </data>
+  <data name="Good111" xml:space="preserve">
+    <value>Will it be peaceful and safe for &lt;me&gt; go to that [military mission] in [Iran] in next coming [6 Months] ?[ : Describe Activity(m),Region/Area : Region/Area(Ya),Predict Activity Duration :  Select Duration(Tr),Life Safety/Living Peace : (Sn@x)]{AR}&lt;S@n/Ya&gt;48.0</value>
+  </data>
+  <data name="Good112" xml:space="preserve">
+    <value>Will it be peaceful and safe for &lt;me&gt; to [run business] at [North Africa] in next coming [2 years] ?[ : Describe Activity(m),Region/Area : Activity In Region/Area(Ya),Predict Staying Duration : Select Duration(Tr),Life Safety/Living Peace : (Sn@x)]{AR}&lt;S@n/Ya&gt;48.0</value>
+  </data>
+  <data name="Good113" xml:space="preserve">
+    <value>Suffering [Osteoporosis]... Will there be an accident... if &lt;I&gt; [carry that weight luggage to travel] in coming [20 days] ?[Watch Sickness : Describe weakness(Ok~), : Discribe Activity(Ym),Predict Activity Duration :  Select Duration(Tr),Life Safety/Good Health : (S@x)]{AR}&lt;S@n/Ym/Ok~&gt;48.0</value>
+  </data>
+  <data name="Good114" xml:space="preserve">
+    <value>&lt;I&gt; have been suffering [high blood pressure]... Is there any accident risk ahead of &lt;me&gt; in coming [12 days] ?[Watching Sickness : Describe watching weakness(Ok~),Predicting Duration :  Select Duration(Tr),Life/Health : (Sn@x)]{AR}&lt;S@n/Ok~&gt;48.0</value>
+  </data>
+  <data name="Good115" xml:space="preserve">
+    <value>Will the customized targeting theray implemented by [Thomas] Doctor's prescription Can effectively cure &lt;my&gt; [lung cancer] and save life in coming [one year] ?[Doctor : Input Doctor's Name(Y.dtn),Sickness : Sick Name(O.sk),Predicting Duration :  Select Predicting Duration(Tr),Life Safety/Health Recovery : (Sn@x)]{AR}&lt;Sn@/Y.dtn/O.sk&gt;48.0</value>
+  </data>
+  <data name="Good116" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Good117" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Good118" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Good130" xml:space="preserve">
+    <value>[Sick / Life State !?]</value>
+    <comment>S@sn substitute divination</comment>
+  </data>
+  <data name="Good200" xml:space="preserve">
+    <value>Rescently just Having found... &lt;I&gt; get [serious diabetes]... How fatal/serious it will be aganist &lt;my&gt; life in coming [1 year]... Should &lt;I&gt; take any medicine ?[Sickness : Discribe sick name and state(Ok~.sk),Predict Duration : Select within Duration(Tr),Life Safety/Good Health : (S@x),Medicine : (C=.mdmx)]{AR}&lt;S@n/Ok~/Cm=&gt;60</value>
+    <comment>&lt;I&gt; to be replaced by Divined for someone</comment>
+  </data>
+  <data name="Good201" xml:space="preserve">
+    <value>Being [in ICU] for [several hours/days]... How is [Mr.X name]'s vital sign going on...  Will (he) revive self conscious in coming [1 week]... when ?[ : Describe critial situation, : Input duration days/hours(t),Mr. : Substitute for person's X name(Ssn!),Predicting Duration : Expect revive within(Tr),Life Safety/Revive Concious : (S@x)]{AR}&lt;S@sn&gt;60</value>
+  </data>
+  <data name="Good202" xml:space="preserve">
+    <value>Just Currently sustaining [in ICU unconciously]... How [Mr.X name]'s life will be... Will (he) [wake up and surrive] in coming next [24 hours]... when ?[ : Discribe critial situation(m),: Substitute for person's X name(S@sn!), : Discribe expecting state(m),Predict Duration : Select within Duration(Tr),Life Safety/Revive Concious : (S@snx)]{AR}&lt;S@sn&gt;60</value>
+  </data>
+  <data name="Good203" xml:space="preserve">
+    <value>Currently has been sustaining [in coma state] for [several days]... How [Mr.X name]'s life will be... will (he) revive conscious... when ?[Discribe dangerous state,Specify duration,: Substitute for person's X name(Ssn!),Predict Duration : Select within Duration(Tr),Life Safety/Revive Concious : (S@x)]{AR}&lt;S@sn&gt;60</value>
+  </data>
+  <data name="Good204" xml:space="preserve">
+    <value>Being seriously [wounded at head]... How [Mr.X name]'s life will be... Will (he) through this [medical treatment] and recover (his) health ... ?[Wound : Wounded description(Ok~.sk),: Substitute for person's X name(Ssn!),Therapy : Name for therapy(C&amp;),Life Safety/Revive Concious : (S@x)]{AD}&lt;S@sn/Ok~/C&amp;&gt;60</value>
+  </data>
+  <data name="Good205" xml:space="preserve">
+    <value>Having been suffering [sciatic nervous pain]... Can &lt;I&gt; safely go through this [sciatic surgery] to get ride of this sickness ?[Sickness : Discribe sick name and state(Ok~.sk),Surgery : Surgery location / name(Y.sg),Life Safety/Recover Health : (S@x)]{AD}&lt;S@n/Y.sg/Ok~&gt;60</value>
+  </data>
+  <data name="Good206" xml:space="preserve">
+    <value>Ready for this heavy [heart surgery]... Shall &lt;I&gt; recover &lt;my&gt; life health through this surgery ?[Surgery : Surgery name(Y~.sg),Life Safety/Recover Health : (S@x)]{AD}&lt;S@n/Y&gt;60</value>
+  </data>
+  <data name="Good207" xml:space="preserve">
+    <value>Being worry about the past [stomach cancer]....How &lt;my&gt; health will be within [this year]... Will it bring about again ?[Sickness : Sick name(Ok~),Predicting Duration :  Select within Duration(Tr),Unknown/Danger : (X~x),Life Safety/Good Health : (S@x)]{AR}&lt;S@n/Ok/X~&gt;48.0</value>
+  </data>
+  <data name="Good208" xml:space="preserve">
+    <value>Will this [stomach surgery] to be conducted by doctor [Karen Wang] in the [Methodist Teaching] hospital recover &lt;my&gt; health on [March 28]... ?[Surgery : Input Surgery Name(C.sg),Doctor : Input Doctor's Name(Yn.dt),Hospital : Input Hosital Name(M.hp),Date : Input Surgery Date(t),Life Safety/Recover Health : (S@x)]{AD}&lt;S@n/M/Yn&gt;48.0</value>
+  </data>
+  <data name="Good209" xml:space="preserve">
+    <value>Will &lt;my&gt; life be rescued through this [Stomach surgery] ?[Surgery : Sugery name(Y.sgg),Life Safety/Recover Health : (S@x),Changing Matter : (X~)]{AD}&lt;S@n/Yg/X~&gt;60</value>
+  </data>
+  <data name="Good210" xml:space="preserve">
+    <value>Can &lt;my&gt; artificial pregant [embryo] surrive and securely grow up in &lt;my&gt; body through the assistance from [Mr.] [X name] doctor ?[ : Select Baby or Embryo|EqBaby2(C@n~),Doctor : Input Doctor's Name(Yn!.dt),Life Safety/Good Health : (C@x)]{AD}&lt;Sn/Yn!.dt/C@n&gt;48.0</value>
+  </data>
+  <data name="Good211" xml:space="preserve">
+    <value>How is the effectiveness of current [lung cancer] therapy being processed under the [x Name] dooctor's prescription...Any on going positive progress... Can &lt;I&gt; recover health in coiming [6 months] ?[Sickness : Sick Name(O.sk),Doctor : Input Doctor's Name(Y.dt),Predicting Duration :  Select Duration(Tr),Life Safety/Health Recovery : (Sn@x)]{AD}&lt;S@n/Y/O&gt;48.0</value>
+  </data>
+  <data name="Good212" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Good213" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Good000" xml:space="preserve">
+    <value>&lt;我&gt;去[施工现场]那里在未來的[8小时]内是否安全和平安...?[地点/区域 : 去地点/区域(Ya),占卜持续期间 : 选择持续期间(Tr),身体安全 : (S@x),改变/意外事情 : (X~)]{AR}&lt;S@/X~&gt;16.0</value>
+  </data>
+  <data name="Good001" xml:space="preserve">
+    <value>&lt;我&gt;能否安全和平安的从事户外活动而没有任何意外发生在&lt;我&gt;身上损害我的身体健康在未來的[1年]内... ?[占卜持续期间 : 选择持续期间(Tr),身体安全和平安 ：(S@x),改变/意外事情：(X~)]{AR}&lt;S@/X~&gt;16.0</value>
+  </data>
+  <data name="Good002" xml:space="preserve">
+    <value>&lt;我&gt;在居家內生活活动能否安全平全地度过在未來的[1年]内而没有任何意外发生在&lt;我&gt;身上... ?[占卜持续期间 : 选择持续期间(Tr),身体安全和平安 ： (S@x),改变/意外事情：(X~)]{AR}&lt;S@/X~&gt;16.0</value>
+  </data>
+  <data name="Good003" xml:space="preserve">
+    <value>&lt;我&gt;身体的[心脏]器官健康状况將如何在未来[1年]内... ?[身體器官 ： 选择身体心脏器官|Organ9(Yu),占卜持续期间 : 选择持续期间(Tr),身体健康：(S@x),改变/意外事情：(X~)]{AR}&lt;S@/Yu/X~&gt;16.0</value>
+  </data>
+  <data name="Good004" xml:space="preserve">
+    <value>刚刚迷路.... (他的)手机没有接听......在[内华达州卡森沙漠的80号高速公路]的某个地方......。已有[数小时]还没有被找到在哪里... 现在[X先生的名字]怎么样了... 他是否还安全... 还活着吗... ?[位置/区域 : 地点/位置/区域(a),占卜持续期间 : 选择持续期间(Tr),先生：被人代替占卜人的X名字(S@sn),生命安全 : (S@nsx),改变/意外事情 ：(X~)]{AR}&lt;S@sn/X~&gt;16.0</value>
+  </data>
+  <data name="Good005" xml:space="preserve">
+    <value>在[黄石公园]某处失踪... 已有[数天]还没有被找到在哪里... [X先生的名字]现在怎么样了... (他)是否仍然安全/活着... ?[位置 : 地区地点位置(a),占卜持续期间 : 选择持续期间(Tr),先生 : 被人代替占卜人的X名字(S@sn),生命安全 : (S@x),改变/意外事情 : (X~) ]{AR}&lt;S@sn/X~&gt;16.0</value>
+  </data>
+  <data name="Good100" xml:space="preserve">
+    <value>如果&lt;我&gt;选择决定在这个[Alga公司的软件部门]工作，作为一个[实习试用的软件工程师]... 未来[1年]的职业/工作安全保障如何...?[工作在 : 公司名称(Ye.et),工作职称 :工作名称/专业描述(O@f.pf),占卜持续期间 : 选择持续期间(Tr),主管/同事 :  (Mx),工作适配性/生活平安：(Jx),友好的工作环境：(Kx),工作稳定安全保障 ： (O@f.pfx)]{AD}&lt;Sn/Mn/Ye/O@f/J/K&gt;32.0</value>
+  </data>
+  <data name="Good101" xml:space="preserve">
+    <value>&lt;我&gt;开设经营&lt;我&gt;的[建筑材料供应业务生意]在此[天普市大道 5821 号 天普市 CA.91780]在未来[3年]内的财运吉凶將会如何... ?[经营业务生意 : 输入业务类别/生意描述(S=.et),位置在 : 输入地址/地点(Ya),占卜持续期间 : 选择持续期间(Tr),金钱/收入 : (W@wh+x),产品质量/优点 : (Jx.go),营销客户潜力 : (Kx.ct)]{AD}&lt;S=e/Ya/W@wh+/J/K&gt;48.0</value>
+  </data>
+  <data name="Good102" xml:space="preserve">
+    <value>如果&lt;我&gt;[拒绝与][X姓名][先生]就[这个设计项目]合作...会给&lt;我&gt;[会计助理]工作安全稳定保障带来什么意外改变... ?[: 意图行动(m),冲突者 : 冲突者/X先生的名字(Yn!),: 选择 小姐/女士或先生  人姓名为X的人(yn!),: 描述冲突的事情(Mm),工作职称 : 工作名称/专业描述(O@f.pf),改变对我的影响 : (S=x),工作安全保障 : (O@fx)]{AD}&lt;S=n/Mm/Yn!/O@f&gt;48.0</value>
+  </data>
+  <data name="Good103" xml:space="preserve">
+    <value>如果&lt;我&gt;要求[增加目前月薪20%]...... &lt;我&gt;的[老板][X姓名]会如何回应...... 对于&lt;我&gt;在[海藻公司软件部]的[工作职业]会带来什么影响...?[打算行動 : 你打算做什么行動(m),: 输入经理或老板或董事(jn),: 影响者/X先生的名字(Mn!),职业/工作职称 : 描述职业/职位(Of.pf),职位/公司 : 描述职位(Ye.et),工作职业安全 : (O@f.pfx)]{AD}&lt;Sn/Mn!/Ye/O@f&gt;32.0</value>
+  </data>
+  <data name="Good104" xml:space="preserve">
+    <value>[暴风雪这么大]……如果&lt;I&gt;[继续开车前进]会怎样... 前方有什么意想不到的危险... ?[未知/危险 : 描述危急情况(m),打算行动 : 描述打算做什么(X),生命安全 : (S@x)]{AD}&lt;S@n/X~&gt;48.0</value>
+  </data>
+  <data name="Good105" xml:space="preserve">
+    <value>[在这条大雪纷飞的 I-25 高速公路上] .... &lt;I&gt; [继续在这条路上继续驾驶汽车] ... 安全吗...?[危急情况：描述危急情况(m),打算做：打算做什么(X),生命安全：(S@x)]{AD}&lt;S@n/X~&gt;48.0 </value>
+  </data>
+  <data name="Good106" xml:space="preserve">
+    <value>如果&lt;I&gt;[改道為210西方高速公路]它将如何... &lt;我&gt;再往前行动是否安全...... ?[意图行动：意图行动(Ym),生命安全：(S@x),变化未知/危险：(X~)]{AD}&lt;S@n/Ym/X~&gt;48.0</value>
+  </data>
+  <data name="Good107" xml:space="preserve">
+    <value>如果&lt;我&gt;乘坐这架[西北航空25号飞机]从[洛杉矶]起飞... &lt;我&gt;是否会安全平全在[10月26日上午]时到达[芝加哥]... ?[交通工具 : 描述你的交通工具(Mg.tp),从城市 : 从城市(Ja),到城市 : 你的目的地(Ya),: 输入出发日期(t),天气/气候 : (P~x),生命安全 : (S@x)]{AD}&lt;S@n/Ja/Mg/Ya/P~&gt;48.0</value>
+  </data>
+  <data name="Good108" xml:space="preserve">
+    <value>如果&lt;我&gt;搬到[256山景大道加利福尼亞州埃爾蒙特]作为我的住所... &lt;我&gt;的生命健康会受到这住所风水什么影响... 在未来[2年]...?[风水影响在 : 住家地址(Ya),占卜持续期间 : 选择持续期间(Tr),健康/生活安宁 : (S@x))]{AD}&lt;S@n/Ya&gt;48.0</value>
+  </data>
+  <data name="Good109" xml:space="preserve">
+    <value>&lt;我&gt;去[朝鲜]旅行在接下来的[两个月]里是否会平安和安全... ?[旅行区域：区域名称(Ya),预测旅行时间：选择时间(Tr),生命安全/旅行平安 : (S@x)](S@x{AR}&lt;S@n/Ya&gt;48.0</value>
+  </data>
+  <data name="Good110" xml:space="preserve">
+    <value>&lt;我&gt;将会去[澳大利亚悉尼大学]留学[土木工程碩士]在接下来的[2年]时间里是否会平安和安全... ?[学习学校 ： 学校名称(Y.sh),活動/學習 : 活動/學習(P=m),预测学习时间 ： 选择时间(Tr),生命安全/生活平安 ： (S@x)]{AR}&lt;S@n/Y.sh/P=m&gt;48.0</value>
+  </data>
+  <data name="Good111" xml:space="preserve">
+    <value>&lt;我&gt;去[伊朗]的[军事任务]在未来的[6个月]里... 将会是平安和安全的吗...?[: 描述活动(m),地区/地区  : 地区/地区（Ya）,预测活动持续时间 : 选择持续时间（Tr）,生命安全/平安生活：（S@x）]{AR}&lt;S@n/Ya&gt;48.0</value>
+  </data>
+  <data name="Good112" xml:space="preserve">
+    <value>&lt;我&gt;会在[北非][经营商业业务]在未来的[2年]里将会是否平安和安全吗... ?[：描述活动(m),区域/地区 : 活动的区域/地区(Ya),预测停留时间：选择时间(Tr),生命安全/生活安宁 ： (S@x)]{AR}&lt;S@n/Ya&gt;48.0</value>
+  </data>
+  <data name="Good113" xml:space="preserve">
+    <value>患有[骨质疏松症]...如果&lt;我&gt;[携带那么重的行李去旅行]会不会发生意外在未来[20天]... ?[需要小心的疾病 : 描述需要小心的疾病弱点（Ok~),活动 : 描述活动(Ym),预测活动持续时间 : 选择持续时间（Tr）,生命安全/身体健康：（S@x)]{AR}&lt;S@n/Ym/Ok~&gt;48.0</value>
+  </data>
+  <data name="Good114" xml:space="preserve">
+    <value>&lt;我&gt;一直患有[高血压]... &lt;我&gt;是否有任何意外事故风险...在未来的[12天]里... ?[需要小心的疾病 : 描述需要小心的疾病弱点(Ok~),预测时间 : 选择时间(Tr),生命安全/健康：(S@x)]{AR}&lt;S@n/Ok~&gt;48.0</value>
+  </data>
+  <data name="Good115" xml:space="preserve">
+    <value>[托马斯]医生实施的定制標靶药方治疗能否在未来[一年]内治愈&lt;我&gt;的[肺癌]并挽救生命 ?[医生：医生姓名(Y.dtn)，疾病：病名(O.sk)，预测持续时间：选择持续时间(Tr)，生命安全/健康恢复：(Sn@x)]{AR}&lt;Sn@/Y .dtn/O.sk&gt;48.0</value>
+  </data>
+  <data name="Good200" xml:space="preserve">
+    <value>就在最近.&lt;我&gt;发现得了[严重的糖尿病]... 在未来[1年]会有多严重威脅&lt;我&gt;的生命... 我应该会开始吃药吗 ?[疾病 : 描述疾病的名称和状态(Ok~.sk),预测时间 : 选择期限内(Tr),生命安全/健康 : (Sn@x), 医药 : (Cm=x)]{AD}&lt;S@n/Ok~/C=m&gt;48.0</value>
+  </data>
+  <data name="Good201" xml:space="preserve">
+    <value>正在[重症监护室]已经[几小时/几天]了... [X姓名先生]的生命症状征怎么样了... (他)在未来[1周]是否会恢复自我意识......何时... ?[：描述危急情况，：输入持续时间天/小时(t),先生 : 被代替占卜人的X名字(S@sn),预测时间内恢复 : 选择期限内(Tr),生命安全/恢复知觉 ： (Sns@x)]{AR}&lt;S@sn&gt;48.0</value>
+  </data>
+  <data name="Good202" xml:space="preserve">
+    <value>目前剛入住在维持生命[在ICU沒有自觉意識地]... [X先生]的生命将如何...。(他)将在未来[24小时][醒来会恢复意识活下来吗]...什么时候... ?[：描述危急情况,: 被人代替占卜人的X名字(S@sn!),: 描述期待的状态(m),预测时间内恢复 : 选择期限内(Tr),生命安全/恢复意识 ： (Sns@x)]{AR}&lt;S@sn&gt;48.0</value>
+  </data>
+  <data name="Good203" xml:space="preserve">
+    <value>目前已经维持[昏迷状态][数天]了... [X先生]的生命将如何... 他是否会恢复知觉... 何时恢复... ?[: 描述危险状态(m), : 指定持续时间(t),: 被人代替占卜人的X名字(S@sn!),预测时间内恢复 : 选择期限内（Tr),生命安全/恢复意识 : （Sn@x)]{AR}&lt;S@sn&gt;48.0</value>
+  </data>
+  <data name="Good204" xml:space="preserve">
+    <value>被严重[头部受伤]... [X先生]的生命将如何......？(他)是否会通过这种[治疗]而恢复(他的)健康... ?[受傷 : 受傷描述(Ok~.sk),: 被人代替占卜人的X名字(Ssn!),治療 : 治療名稱 (C&amp;),生命安全/恢复意识 : (S@x)]{AD}&lt;S@sn/Ok~/C&amp;&gt;48.0</value>
+  </data>
+  <data name="Good205" xml:space="preserve">
+    <value>一直在忍受着[坐骨神经性疼痛]……&lt;我&gt;能否安全地通过这个[坐骨神经痛手术]摆脱这种病痛... ?[疾病：描述病名和状态(Ok~.sk),手术 : 手术位置/名称(Y.sg), 生命安全/恢复健康：(S@x)]{AD}&lt;S@n/Y.sg/Ok~&gt;48.0</value>
+  </data>
+  <data name="Good206" xml:space="preserve">
+    <value>为这个重大的[心脏手术]已經做好准备......&lt;我&gt;能不能通过这个手术恢复&lt;我&gt;的生命健康吗... ?[手术：手术名称(Y~.sg),生命安全/恢复健康：(S@x)]{AD}&lt;S@n/Ym&gt;48.0</value>
+  </data>
+  <data name="Good207" xml:space="preserve">
+    <value>正在担心过去的[胃癌].... &lt;我&gt;的健康将在[今年]会如何... 它是否会再次复发生... ?[疾病 ：病名(Ok~),预测持续时间 : 选择持续时间(Tr),未知/危险 : (Xx~),生命安全/身体健康 : (Sn@x)]{AR}&lt;S@n/Ok/X~&gt;48.0</value>
+  </data>
+  <data name="Good208" xml:space="preserve">
+    <value>这个[胃部手术]将由[X 姓名]医生在[卫理公会教学]医院在[3月28日]执行... 能否恢复&lt;我&gt;的身体/生命健康... ?[手术：输入手术名称(C.sg)，医生：输入医生姓名[Yn.dr]，医院：输入医院名称(M.hp),手术日期：输入手术日期(t),生命安全/恢复健康：(S@nx)]{AD}&lt;S@n/M/Yn&gt;48.0</value>
+  </data>
+  <data name="Good209" xml:space="preserve">
+    <value>通过这个[胃部手术]... &lt;我&gt;的生命健康能得到拯救吗... ?[手术 ：手术名称(Y.sg),生命安全/恢复健康 : (Sn@x),变化未知/危险：(Xx~)]{AD}&lt;S@n/Yg/X~&gt;48.0</value>
+  </data>
+  <data name="Good210" xml:space="preserve">
+    <value>&lt;我的&gt;人工[婴儿胚胎]在[X 姓名]医生的帮助下能否在&lt;我&gt;体内茁壮健康成长... ?[: 选择婴儿或胚胎|EqBaby2(C@n~),医生 : 医生姓名(Yn!.dt),生命安全/健康成长 : (C@nx)]{AD}&lt;Sn/Yn!.dt/C@n&gt;48.0</value>
+  </data>
+  <data name="Good211" xml:space="preserve">
+    <value>目前[肺癌]治疗的有效性在[x姓名]医生的指导药方下进展如何...有任何正面的进展吗... &lt;我&gt;可以在未来6个月内恢复健康吗... ?[疾病：病名(O.sk),医生 : 医生姓名(Y.dt),预测持续时间 : 选择持续时间(Tr),生命安全/健康恢复 : (Sn@x)]{AD}&lt;S@n/Y/O&gt;48.0</value>
+  </data>
+</root>
