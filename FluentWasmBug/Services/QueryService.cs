@@ -6,7 +6,7 @@ using EditDivineEq.Resources;
 
 using System.Security.Cryptography;
 
-namespace WenWangWasm.Services
+namespace FluentWasmBug.Services
 {
 
     public enum EditState : uint

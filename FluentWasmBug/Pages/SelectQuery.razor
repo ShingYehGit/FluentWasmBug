@@ -1,0 +1,43 @@
+﻿@inject IQueryService QuerySvc
+
+<h5>Select Query</h5>
+
+<FluentStack VerticalAlignment="VerticalAlignment.Top">
+    <FluentListbox
+      TOption="Query"
+      Items="@QueryList"
+      SelectedOptionChanged="OnSelectQueryChanged">
+      <OptionTemplate>
+            <FluentStack HorizontalAlignment.SpaceBetween VerticalGap="5" HorizontalGap="4">
+                <FluentLabel Typo="Typography.H5">@context.QueryIdxSz</FluentLabel>
+                <FluentLabel Typo="Typography.H5">@context.QuerySz</FluentLabel>
+                <FluentLabel Typo="Typography.H5">@context.Pricesz</FluentLabel>
+          </FluentStack>
+      </OptionTemplate>
+    </FluentListbox>
+</FluentStack>
+
+@code {
+    [Parameter, EditorRequired]
+    public EventCallback<string> GoToSwitchTab { get; set; }
+    List<Query> QueryList;
+
+    protected override void OnParametersSet()
+    {
+        if (QuerySvc.SelectAsk != null)
+        {
+            QuerySvc.CheckQuerySetNotExisting_ToReadQuerySet();
+
+            QueryList = QuerySvc.DisplayQuerySet.Queries;
+
+            StateHasChanged();
+        }
+    }
+
+    async Task OnSelectQueryChanged(Query PickQuery)
+    {
+        QuerySvc.SelectQuery = PickQuery;
+        GoToSwitchTab.InvokeAsync("EdtQueTab");
+    }
+
+}

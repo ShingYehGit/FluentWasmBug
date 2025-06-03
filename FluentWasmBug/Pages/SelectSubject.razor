@@ -1,0 +1,56 @@
+﻿@inject IQueryService QuerySvc
+
+<h5>Select Subject</h5>
+<FluentAccordion ExpandMode="AccordionExpandMode.Single">
+
+    @foreach (AskList ListAsk in AskLists)
+    {
+        <FluentAccordionItem Style="width:50%;" Heading=@ListAsk.Title>
+            <FluentStack VerticalAlignment="VerticalAlignment.Top">
+                <FluentListbox TOption="Ask"
+                               Items="@ListAsk.Asks"
+                               SelectedOptionChanged="OnSelectAskChanged" >
+                    <OptionTemplate>
+                        <FluentLabel Typo="Typography.H5"> @context.szAsk </FluentLabel>
+                    </OptionTemplate>
+                </FluentListbox>
+            </FluentStack>
+        </FluentAccordionItem>
+    }
+
+</FluentAccordion>
+
+@code {
+    [Parameter, EditorRequired]
+    public EventCallback<string> GoToSwitchTab { get; set; }
+
+    FluentMenuButton Menubutton = new();
+    List<AskList> AskLists;
+
+    string Good = String.Empty;
+    string[] Goods = new string[3];
+
+    bool BAskListDisplay = false;
+
+    Ask LastAsk = null;
+
+    protected override void OnParametersSet()
+    {
+        if (!BAskListDisplay)
+        {
+            AskLists = QuerySvc.GetDivineQuerySubject();
+            StateHasChanged();
+            BAskListDisplay = true;
+        }
+    }
+
+    async Task OnSelectAskChanged( Ask PickAsk )
+    {
+        if (LastAsk != null && PickAsk == LastAsk)
+            return;
+        QuerySvc.SelectAsk = PickAsk;
+        LastAsk = QuerySvc.SelectAsk;
+        GoToSwitchTab.InvokeAsync("SelQueTab");
+    }
+
+}

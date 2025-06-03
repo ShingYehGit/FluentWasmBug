@@ -1,7 +1,60 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+@inject IQueryService QuerySvc
+@implements IDisposable
 
-<h1>Hello, world!</h1>
+<PageTitle>Edit Divine</PageTitle>
 
-Welcome to your new Fluent Blazor app.
+<h3>Select Divine To Edit Query Statements</h3>
+
+<div FluentStack style="Width = 50%; padding: 6px;" Orientation="Orientation.Vertical">
+        <FluentTabs Class="tabRect " 
+            ActiveTabId="@ActiveTabId"
+            OnTabChange="HandleOnTabChange">
+
+            <FluentTab Label="Select Subject" Id="SelSubTab">
+                <SelectSubject GoToSwitchTab="SwichToActiveTab" />
+            </FluentTab>
+
+            <FluentTab Label="Select Query" Id="SelQueTab" DeferredLoading="@DeferredLoading">
+                <SelectQuery GoToSwitchTab="SwichToActiveTab" />
+            </FluentTab>
+
+            <FluentTab Label="Edit Query" Id="EdtQueTab" DeferredLoading="@DeferredLoading">
+                <EditQuery />
+            </FluentTab>
+
+            <FluentTab Label="Query Model" Id="DisModTab" DeferredLoading="@DeferredLoading">
+                <ModelCast />
+            </FluentTab>
+
+        </FluentTabs>
+</div>
+
+@code {
+
+    bool DeferredLoading = false;
+    string? ActiveTabId = "SelSubTab";//SelQueTab
+    FluentTab? changedto;
+
+    protected override void OnParametersSet()
+    {
+    }
+
+    private void HandleOnTabChange(FluentTab tab)
+    {
+        changedto = tab;
+        ActiveTabId = tab.Id;
+    }
+
+    public void SwichToActiveTab(string ShowTab)
+    {
+        ActiveTabId = ShowTab;
+    }
+
+    public void Dispose()
+    {
+    }
+
+}
+

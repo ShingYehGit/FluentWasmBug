@@ -1,7 +1,7 @@
 ﻿using EditDivineEq;
 using System.Globalization;
 
-namespace WenWangWasm.Services
+namespace FluentWasmBug.Services
 {
 
     public interface IQueryService
